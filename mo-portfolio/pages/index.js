@@ -7,20 +7,25 @@ import Skill from '../components/Skill';
 import Project from '../components/Project';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
     <Layout>
       <Head>
+        <title>Khin Mo Mo Zin</title>
         <link rel="shortcut icon" href="/programmer.png" />
       </Head>
-      <Nav />
-      <Intro />
-      <About />
-      <Skill />
-      <Project />
-      <Blog />
-      <Contact />
+      <main>
+        <Nav />
+        <Intro />
+        <About />
+        <Skill />
+        <Project />
+        <Blog />
+        <Contact />
+        <Footer />
+      </main>
     </Layout>
   );
 };
