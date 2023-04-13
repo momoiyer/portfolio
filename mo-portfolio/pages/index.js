@@ -1,14 +1,27 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Layout from '../components/Layout';
+import Nav from '../components/Nav';
+import Intro from '../components/Intro';
+import About from '../components/About';
+import Skill from '../components/Skill';
+import Project from '../components/Project';
+import Blog from '../components/Blog';
+import Contact from '../components/Contact';
 
 const Home = () => {
   return (
-    <>
+    <Layout>
       <Head>
         <link rel="shortcut icon" href="/programmer.png" />
       </Head>
-      <h1>This is my portfolio website</h1>
-    </>
+      <Nav />
+      <Intro />
+      <About />
+      <Skill />
+      <Project />
+      <Blog />
+      <Contact />
+    </Layout>
   );
 };
 
