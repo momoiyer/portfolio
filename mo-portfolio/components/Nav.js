@@ -1,10 +1,6 @@
-// Import the FontAwesomeIcon component
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoonStars } from '@fortawesome/free-solid-svg-icons';
-
+import Image from 'next/image';
 
 const Nav = () => {
-  console.log("faMoonStars: ", faMoonStars);
   return (
     <nav className='nav-bar'>
       {/* include link with logo to go back to home */}
@@ -18,9 +14,11 @@ const Nav = () => {
         <li>View Resume</li>
 
         <li>
-          {/* <FontAwesomeIcon icon="fa-solid fa-coffee-pot" /> */}
-          {/* <FontAwesomeIcon icon="fa-moon-stars" /> */}
-          {/* <i className="fa-duotone fa-moon-stars"></i> */}
+          <Image
+            src="/day-and-night.png"
+            alt="Picture of the day and night mode"
+            width={50}
+            height={50} />
         </li>
       </ul>
     </nav>

@@ -2,14 +2,15 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
   margin: 0 0 1rem 0;
-  background-color: #C38D94;
+  background-color: #93B7BE;
 }
 
 /* Nav Bar Style */
 .nav-bar {
-  background-color: rgba(139, 111, 115, 0.518);
+  background-color: #4545458e;
   width: 100%;
-  color: #E8EDDF;
+  color: #cae2e7;
+  border-radius: .5rem;
 }
 
 .nav-bar>ul {
@@ -25,17 +26,18 @@
 
 /* Body Styles */
 .light-background {
-  background-color: #CFDBD5;
-  color: #61707D;
+  color: #785964;
   padding: 1rem;
   margin: .5rem;
+  border-radius: .5rem;
 }
 
 .dark-background {
-  background-color: #61707D;
-  color: #CFDBD5;
+  background-color: #785964d2;
+  color: #F1FFFA;
   padding: 1rem;
   margin: .5rem;
+  border-radius: .5rem;
 }
 
 /* Intro section */
