@@ -16,16 +16,18 @@ const Home = () => {
         <title>Khin Mo Mo Zin</title>
         <link rel="shortcut icon" href="/programmer.png" />
       </Head>
-      <main>
+      <header>
         <Nav />
+      </header>
+      <div>
         <Intro />
         <About />
         <Skill />
         <Project />
         <Blog />
         <Contact />
-        <Footer />
-      </main>
+      </div>
+      <Footer />
     </Layout>
   );
 };
