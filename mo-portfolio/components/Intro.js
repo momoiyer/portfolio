@@ -1,6 +1,8 @@
 const Intro = () => {
   return (
-    <h1>This is Intro</h1>
+    <section className="intro-section dark-background">
+      <h1>This is Intro</h1>
+    </section>
   );
 };
 

@@ -1,6 +1,4 @@
 import Head from 'next/head';
-// add bootstrap css 
-import 'bootstrap/dist/css/bootstrap.css';
 //add custom global css
 import '@/styles/globals.css';
 // import Font Awesome CSS

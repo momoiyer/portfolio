@@ -1,8 +1,96 @@
 :root {
-  background-color: #E8EDDF;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  color: #61707D;
-  margin: 0;
+  margin: 0 0 1rem 0;
+  background-color: #C38D94;
+}
+
+/* Nav Bar Style */
+.nav-bar {
+  background-color: rgba(139, 111, 115, 0.518);
+  width: 100%;
+  color: #E8EDDF;
+}
+
+.nav-bar>ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-bar>ul>li {
   padding: 1rem;
+  list-style: none;
+}
+
+/* Body Styles */
+.light-background {
+  background-color: #CFDBD5;
+  color: #61707D;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+.dark-background {
+  background-color: #61707D;
+  color: #CFDBD5;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+/* Intro section */
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Skill section */
+.skill-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Project section */
+.project-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Blog section */
+.blog-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact Me section */
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer section */
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .nav-bar>ul {
+    flex-direction: column;
+    align-items: start;
+  }
 }

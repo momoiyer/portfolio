@@ -1,12 +1,12 @@
 // Import the FontAwesomeIcon component
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-// import { faMoonStars } from '@fortawesome/free-solid-svg-icons';
+import { faMoonStars } from '@fortawesome/free-solid-svg-icons';
 
 
 const Nav = () => {
+  console.log("faMoonStars: ", faMoonStars);
   return (
-    <nav>
+    <nav className='nav-bar'>
       {/* include link with logo to go back to home */}
       <ul>
         <li>Home</li>
@@ -14,8 +14,8 @@ const Nav = () => {
         <li>Skill</li>
         <li>Project</li>
         <li>Blog</li>
-        <li>Contact Me</li>
-        <li>View My Resume</li>
+        <li>Coffee Chat</li>
+        <li>View Resume</li>
 
         <li>
           {/* <FontAwesomeIcon icon="fa-solid fa-coffee-pot" /> */}

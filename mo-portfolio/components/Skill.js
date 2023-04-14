@@ -1,6 +1,8 @@
 const Skill = () => {
   return (
-    <h1>These are my skills</h1>
+    <section className="skill-section  dark-background">
+      <h1>These are my skills</h1>
+    </section>
   );
 };
 

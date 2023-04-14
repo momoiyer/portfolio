@@ -1,6 +1,8 @@
 const About = () => {
   return (
-    <h1>This is about me</h1>
+    <section className="about-section light-background">
+      <h1>This is about me</h1>
+    </section>
   );
 };
 

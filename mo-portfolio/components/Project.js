@@ -1,6 +1,8 @@
 const Project = () => {
   return (
-    <h1>These are my projects</h1>
+    <section className="project-section  light-background">
+      <h1>These are my projects</h1>
+    </section>
   );
 };
 
