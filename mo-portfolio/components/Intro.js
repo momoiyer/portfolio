@@ -16,7 +16,10 @@ const Intro = () => {
           height={370} />
       </div>
       <div className='intro-section__social'>
-
+        <i class="fa-brands fa-github fa-lg"></i>
+        <i class="fa-brands fa-linkedin fa-lg"></i>
+        <i class="fa-solid fa-pen-to-square fa-lg"></i>
+        <i class="fa-solid fa-envelope fa-lg"></i>
       </div>
     </section >
   );

@@ -86,7 +86,6 @@ p {
   color: #785964;
   font-weight: 700;
   font-size: 2.7rem;
-  text-shadow: -5px -1px 5px #55868c7d;
 }
 
 .special-text {
@@ -95,10 +94,22 @@ p {
   color: #785964;
 }
 
+.intro-section__image {
+  padding: 1rem;
+}
 
 .intro-section__image>img {
   border-radius: .5rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.intro-section__social {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #F1FFFA;
 }
 
 /* About section */
