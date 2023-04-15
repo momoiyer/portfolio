@@ -6,13 +6,12 @@ const Nav = () => {
       {/* include link with logo to go back to home */}
       <span className='nav-bar__name-logo'>Khin Mo Mo Zin</span>
       <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Skill</li>
-        <li>Project</li>
-        <li>Blog</li>
-        <li>Coffee Chat</li>
-        <li>View Resume</li>
+        <li>about</li>
+        <li>skills</li>
+        <li>projects</li>
+        <li>blogs</li>
+        <li>contact</li>
+        <li>resume</li>
 
         <li>
           <Image
