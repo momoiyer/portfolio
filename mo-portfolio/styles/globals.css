@@ -3,8 +3,8 @@
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
-  background-color: #F1FFFA;
-  color: #F1FFFA;
+  background-color: #ffffff;
+  color: #124559;
   padding: 0;
   margin: 0;
 }
@@ -20,9 +20,8 @@ p {
 
 /* Nav Bar Style */
 .nav-bar {
-  background-color: #F1FFFA;
   margin: 0;
-  color: #5E807F;
+  color: #598392;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -43,23 +42,22 @@ p {
 }
 
 .nav-bar__name-logo {
-  color: #785964;
+  color: #01161E;
   font-family: 'Philosopher', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  text-shadow: -5px -1px 5px rgba(213, 199, 188, 1);
 }
 
 /* Body Styles */
 .light-background {
-  color: #5E807F;
+  color: #124559;
   padding: 1rem;
   margin: .5rem;
   border-radius: .5rem;
 }
 
 .dark-background {
-  background-color: #55868c7d;
+  background-color: #598392af;
   padding: 1rem;
   margin: 1rem 3rem;
   border-radius: .5rem;
@@ -67,6 +65,8 @@ p {
 
 /* Intro section */
 .intro-section {
+  left: -5rem;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,7 +83,7 @@ p {
 }
 
 .name {
-  color: #785964;
+  color: #fefefe;
   font-weight: 700;
   font-size: 2.7rem;
 }
@@ -91,7 +91,7 @@ p {
 .special-text {
   font-weight: bold;
   font-style: italic;
-  color: #785964;
+  color: rgb(255, 255, 255);
 }
 
 .intro-section__image {
@@ -109,7 +109,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: #F1FFFA;
+  color: #598392;
 }
 
 /* About section */
@@ -121,6 +121,8 @@ p {
 
 /* Skill section */
 .skill-section {
+  right: -5rem;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,6 +137,8 @@ p {
 
 /* Blog section */
 .blog-section {
+  left: -5rem;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,6 +153,8 @@ p {
 
 /* Footer section */
 .footer-section {
+  right: -5rem;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
