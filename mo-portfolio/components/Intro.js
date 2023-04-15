@@ -1,8 +1,24 @@
+import Image from 'next/image';
+
 const Intro = () => {
   return (
     <section className="intro-section dark-background">
-      <h1>This is Intro</h1>
-    </section>
+      <div className='intro-section__desc'>
+        <p>Hello! My name is</p>
+        <p><span className='name'>Mo Mo.</span></p>
+        <p> I'm a <span className='special-text'>software engineer</span> who loves <span className='special-text'>turning problems into opportunities with technology!</span></p>
+      </div >
+      <div className='intro-section__image'>
+        <Image
+          src="/mo-portfolio.jpg"
+          alt="Picture of me"
+          width={300}
+          height={370} />
+      </div>
+      <div className='intro-section__social'>
+
+      </div>
+    </section >
   );
 };
 

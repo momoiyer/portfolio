@@ -1,22 +1,40 @@
 :root {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1rem;
-  margin: 0 0 1rem 0;
-  background-color: #93B7BE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #F1FFFA;
+  color: #F1FFFA;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
 }
 
 /* Nav Bar Style */
 .nav-bar {
-  background-color: #4545458e;
-  width: 100%;
-  color: #cae2e7;
-  border-radius: .5rem;
+  background-color: #F1FFFA;
+  margin: 0;
+  color: #5E807F;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 3rem;
 }
 
 .nav-bar>ul {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: end;
+  margin: 0;
 }
 
 .nav-bar>ul>li {
@@ -24,27 +42,63 @@
   list-style: none;
 }
 
+.nav-bar__name-logo {
+  color: #785964;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: -5px -1px 5px rgba(213, 199, 188, 1);
+}
+
 /* Body Styles */
 .light-background {
-  color: #785964;
+  color: #5E807F;
   padding: 1rem;
   margin: .5rem;
   border-radius: .5rem;
 }
 
 .dark-background {
-  background-color: #785964d2;
-  color: #F1FFFA;
+  background-color: #55868c7d;
   padding: 1rem;
-  margin: .5rem;
+  margin: 1rem 3rem;
   border-radius: .5rem;
 }
 
 /* Intro section */
 .intro-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
+}
+
+.intro-section__desc {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: #785964;
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-shadow: -5px -1px 5px #55868c7d;
+}
+
+.special-text {
+  font-weight: bold;
+  font-style: italic;
+  color: #785964;
+}
+
+
+.intro-section__image>img {
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 /* About section */
@@ -94,5 +148,6 @@
   .nav-bar>ul {
     flex-direction: column;
     align-items: start;
+
   }
 }

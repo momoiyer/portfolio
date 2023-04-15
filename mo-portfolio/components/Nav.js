@@ -4,6 +4,7 @@ const Nav = () => {
   return (
     <nav className='nav-bar'>
       {/* include link with logo to go back to home */}
+      <span className='nav-bar__name-logo'>Khin Mo Mo Zin</span>
       <ul>
         <li>Home</li>
         <li>About Me</li>
