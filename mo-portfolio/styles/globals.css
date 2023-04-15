@@ -125,8 +125,29 @@ p {
   right: -5rem;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.skill-section__languages {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skill-section__languages-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-desc {
+  font-size: .7rem;
+  color: #598392;
 }
 
 /* Project section */
