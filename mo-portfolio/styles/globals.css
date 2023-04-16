@@ -1,7 +1,7 @@
 :root {
-  background-color: #F9F9F9;
-  padding: 0;
-  margin: 0;
+  background-color: #F9F9F9 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 body {
@@ -169,8 +169,25 @@ p {
   padding: 1rem;
 }
 
+.carousel-item {
+  padding: 3rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
 .carousel-item>img {
+  padding-left: 5rem;
   border-radius: .5rem;
+  width: 70% !important;
+  padding-bottom: 2rem;
+}
+
+.carousel-image-description {
+  /* position: relative; */
+  width: 20% !important;
+  color: #F9F9F9 !important;
 
 }
 

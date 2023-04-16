@@ -33,20 +33,23 @@ const Project = () => {
           </div>
 
           {/* <!-- Inner --> */}
-          <div className="carousel-inner">
+          <div className="carousel-inner ">
             {/* <!-- Single item --> */}
-            <div className="carousel-item active">
+            <div className="carousel-item active" data-mdb-interval="500000">
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" className="d-block w-100" alt="Sunset Over the City" />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block"> */}
+
+              <div className="carousel-image-description" >
                 <h5>First slide label</h5>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </div>
             </div>
 
             {/* <!-- Single item --> */}
-            <div className="carousel-item">
+            <div className="carousel-item" >
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block"> */}
+              <div className="carousel-image-description" >
                 <h5>Second slide label</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
@@ -55,7 +58,9 @@ const Project = () => {
             {/* <!-- Single item --> */}
             <div className="carousel-item">
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" className="d-block w-100" alt="Cliff Above a Stormy Sea" />
-              <div className="carousel-caption d-none d-md-block">
+              {/* <div className="carousel-caption d-none d-md-block"> */}
+
+              <div className="carousel-image-description" >
                 <h5>Third slide label</h5>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
               </div>
