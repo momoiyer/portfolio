@@ -4,7 +4,7 @@
   font-weight: 500;
   line-height: 1.5;
   background-color: #F9F9F9;
-  color: #823329;
+  color: #124559;
   padding: 0;
   margin: 0;
 }
@@ -32,7 +32,7 @@ p {
 .nav-bar>ul {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 0;
 }
 
@@ -42,7 +42,7 @@ p {
 }
 
 .nav-bar__name-logo {
-  color: #61210F;
+  color: #01161E;
   font-family: 'Philosopher', sans-serif;
   font-size: 2rem;
   font-weight: bold;
@@ -83,7 +83,7 @@ p {
 }
 
 .name {
-  color: #124559;
+  color: #F9F9F9;
   font-weight: 700;
   font-size: 2.7rem;
 }
@@ -91,7 +91,7 @@ p {
 .special-text {
   font-weight: bold;
   font-style: italic;
-  color: #61210F;
+  color: #F9F9F9;
 }
 
 .intro-section__image {
@@ -147,7 +147,7 @@ p {
 }
 
 .skill-section>p {
-  color: #61210F;
+  color: #F9F9F9;
 }
 
 .language-desc {
