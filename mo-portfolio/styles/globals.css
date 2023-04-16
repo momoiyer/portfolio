@@ -3,8 +3,8 @@
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
-  background-color: #ffffff;
-  color: #124559;
+  background-color: #F9F9F9;
+  color: #823329;
   padding: 0;
   margin: 0;
 }
@@ -42,7 +42,7 @@ p {
 }
 
 .nav-bar__name-logo {
-  color: #01161E;
+  color: #61210F;
   font-family: 'Philosopher', sans-serif;
   font-size: 2rem;
   font-weight: bold;
@@ -83,7 +83,7 @@ p {
 }
 
 .name {
-  color: #fefefe;
+  color: #124559;
   font-weight: 700;
   font-size: 2.7rem;
 }
@@ -91,7 +91,7 @@ p {
 .special-text {
   font-weight: bold;
   font-style: italic;
-  color: rgb(255, 255, 255);
+  color: #61210F;
 }
 
 .intro-section__image {
@@ -132,7 +132,7 @@ p {
 
 .skill-section__languages {
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,6 +144,10 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.skill-section>p {
+  color: #61210F;
 }
 
 .language-desc {
