@@ -1,17 +1,17 @@
 :root {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 1.5;
   background-color: #F9F9F9;
-  color: #124559;
   padding: 0;
   margin: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #124559 !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
 }
 
 p {
@@ -158,8 +158,20 @@ p {
 /* Project section */
 .project-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#carouselBasicExample {
+  background-color: #124559;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.carousel-item>img {
+  border-radius: .5rem;
+
 }
 
 /* Blog section */
