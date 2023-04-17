@@ -164,9 +164,22 @@ p {
 }
 
 #carouselBasicExample {
-  background-color: #124559;
   border-radius: .5rem;
   padding: 1rem;
+  height: 600px;
+}
+
+#carouselBasicExample>button {
+  color: #124559 !important;
+  width: 5rem;
+}
+
+.carousel-inner {
+  height: 100% !important;
+}
+
+.carousel-indicators>button {
+  background-color: #124559 !important;
 }
 
 .carousel-item {
@@ -174,21 +187,18 @@ p {
   display: flex !important;
   align-items: center;
   justify-content: space-around;
-
+  height: 100% !important;
 }
 
 .carousel-item>img {
-  padding-left: 5rem;
+  left: 5rem;
   border-radius: .5rem;
-  width: 70% !important;
-  padding-bottom: 2rem;
+  width: 60% !important;
+  height: 100% !important;
 }
 
 .carousel-image-description {
-  /* position: relative; */
   width: 20% !important;
-  color: #F9F9F9 !important;
-
 }
 
 /* Blog section */
