@@ -105,8 +105,59 @@ const Project = () => {
             {/* <!-- Single item --> */}
             <div className="carousel-item" >{/* <div className="carousel-caption d-none d-md-block"> */}
               <div className="carousel-image-description" >
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>MoJo</h3>
+                <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
+                <p>Tech Stack: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/nodejs.png"
+                    alt="Node.js Logo"
+                    width={50}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/express.svg"
+                    alt="Express Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/react.png"
+                    alt="React Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/sass.svg"
+                    alt="SASS Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/postgres.png"
+                    alt="Postgres Logo"
+                    width={30}
+                    height={30} />
+                </div>
+                <p>API & Libraries: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/fullcalendar.png"
+                    alt="React Full Calendar Logo"
+                    width={40}
+                    height={40} />
+                  <Image
+                    src="/colored-logo/draftjs.svg"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/spotify.png"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/weather.png"
+                    alt="Draft.js Logo"
+                    width={60}
+                    height={30} />
+                </div>
               </div>
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
             </div>
@@ -117,16 +168,118 @@ const Project = () => {
               {/* <div className="carousel-caption d-none d-md-block"> */}
 
               <div className="carousel-image-description" >
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>MoJo</h3>
+                <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
+                <p>Tech Stack: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/nodejs.png"
+                    alt="Node.js Logo"
+                    width={50}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/express.svg"
+                    alt="Express Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/react.png"
+                    alt="React Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/sass.svg"
+                    alt="SASS Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/postgres.png"
+                    alt="Postgres Logo"
+                    width={30}
+                    height={30} />
+                </div>
+                <p>API & Libraries: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/fullcalendar.png"
+                    alt="React Full Calendar Logo"
+                    width={40}
+                    height={40} />
+                  <Image
+                    src="/colored-logo/draftjs.svg"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/spotify.png"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/weather.png"
+                    alt="Draft.js Logo"
+                    width={60}
+                    height={30} />
+                </div>
               </div>
             </div>
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >{/* <div className="carousel-caption d-none d-md-block"> */}
               <div className="carousel-image-description" >
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>MoJo</h3>
+                <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
+                <p>Tech Stack: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/nodejs.png"
+                    alt="Node.js Logo"
+                    width={50}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/express.svg"
+                    alt="Express Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/react.png"
+                    alt="React Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/sass.svg"
+                    alt="SASS Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/postgres.png"
+                    alt="Postgres Logo"
+                    width={30}
+                    height={30} />
+                </div>
+                <p>API & Libraries: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/fullcalendar.png"
+                    alt="React Full Calendar Logo"
+                    width={40}
+                    height={40} />
+                  <Image
+                    src="/colored-logo/draftjs.svg"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/spotify.png"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/weather.png"
+                    alt="Draft.js Logo"
+                    width={60}
+                    height={30} />
+                </div>
               </div>
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
             </div>

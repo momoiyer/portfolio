@@ -116,8 +116,18 @@ p {
 .about-section {
   display: flex;
   flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.about-section>div {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.about-section>div>img {
+  padding: 1rem;
 }
 
 /* Skill section */
@@ -197,7 +207,9 @@ p {
 }
 
 .carousel-image-description {
-  width: 20% !important;
+  /* width: 40% !important; */
+  padding: 1rem;
+
 }
 
 .carousel-image-description>div {
