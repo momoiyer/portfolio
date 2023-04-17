@@ -213,6 +213,8 @@ p {
 }
 
 .carousel-image-description>div {
+  background-color: #59839261;
+  border-radius: .5rem;
   padding: .5rem;
   display: flex;
   align-items: center;
