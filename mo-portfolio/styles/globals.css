@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  margin: 0;
+  margin: 0 !important;
 }
 
 /* Nav Bar Style */
@@ -186,12 +186,11 @@ p {
   padding: 3rem;
   display: flex !important;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100% !important;
 }
 
 .carousel-item>img {
-  left: 5rem;
   border-radius: .5rem;
   width: 60% !important;
   height: 100% !important;
@@ -199,6 +198,13 @@ p {
 
 .carousel-image-description {
   width: 20% !important;
+}
+
+.carousel-image-description>div {
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* Blog section */
