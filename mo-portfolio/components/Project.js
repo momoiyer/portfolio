@@ -51,7 +51,7 @@ const Project = () => {
                 <p>Tech Stack: </p>
                 <div>
                   <Image
-                    src="/colored-logo/nodejs.png"
+                    src="/skill-logo/node.svg"
                     alt="Node.js Logo"
                     width={50}
                     height={30} />
@@ -61,17 +61,17 @@ const Project = () => {
                     width={30}
                     height={30} />
                   <Image
-                    src="/colored-logo/react.png"
+                    src="/skill-logo/react.svg"
                     alt="React Logo"
                     width={30}
                     height={30} />
                   <Image
-                    src="/colored-logo/sass.svg"
+                    src="/skill-logo/sass.svg"
                     alt="SASS Logo"
                     width={30}
                     height={30} />
                   <Image
-                    src="/colored-logo/postgres.png"
+                    src="/skill-logo/postgres.svg"
                     alt="Postgres Logo"
                     width={30}
                     height={30} />
