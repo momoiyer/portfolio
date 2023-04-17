@@ -98,10 +98,10 @@ p {
   padding: 1rem;
 }
 
-.intro-section__image>img {
+/* .intro-section__image>img {
   border-radius: .5rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
+} */
 
 .intro-section__social {
   width: 50%;
