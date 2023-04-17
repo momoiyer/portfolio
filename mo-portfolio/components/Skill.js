@@ -178,7 +178,7 @@ const Skill = () => {
           <Image
             src="/skill-logo/sybase.png"
             alt="SQL Anywhere Logo"
-            width={40}
+            width={45}
             height={30} />
           <span className='language-desc'>SQL Anywhere</span>
         </div>
