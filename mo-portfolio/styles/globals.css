@@ -207,6 +207,16 @@ p {
   justify-content: space-evenly;
 }
 
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+  transition: transform 0s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 0s;
+}
+
 /* Blog section */
 .blog-section {
   left: -5rem;
