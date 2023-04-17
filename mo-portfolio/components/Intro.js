@@ -10,10 +10,10 @@ const Intro = () => {
       </div >
       <div className='intro-section__image'>
         <Image
-          src="/momo-framed.png"
+          src="/mo-portfolio.jpg"
           alt="Picture of me"
-          width={400}
-          height={400} />
+          width={300}
+          height={370} />
       </div>
       <div className='intro-section__social'>
         <i className="fa-brands fa-linkedin fa-lg"></i>
