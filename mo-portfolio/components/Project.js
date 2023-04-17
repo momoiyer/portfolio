@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Project = () => {
   return (
-    <section className="project-section  light-background">
+    <section className="project-section  light-background" data-aos="zoom-out">
       <h1>Review my projects</h1>
 
       <div className="project-section__carousel">

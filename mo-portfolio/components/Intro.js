@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Intro = () => {
   return (
-    <section className="intro-section dark-background">
+    <section className="intro-section dark-background" data-aos="fade-down-right">
       <div className='intro-section__desc'>
         <p>Hello! My name is</p>
         <p><span className='name'>mo mo.</span></p>

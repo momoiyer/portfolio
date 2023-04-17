@@ -21,6 +21,10 @@ export default function Document() {
           type="text/javascript"
           src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
         ></script>
+
+        {/* AOS Animation */}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       </Head>
       <body>
         <Main />

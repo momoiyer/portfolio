@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Skill = () => {
   return (
-    <section className="skill-section  dark-background">
+    <section className="skill-section  dark-background" data-aos="fade-left">
       <h1>Explore my skills</h1>
       <p>Languages</p>
       <div className='skill-section__languages'>

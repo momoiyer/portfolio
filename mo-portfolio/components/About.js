@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <section className="about-section light-background">
+    <section className="about-section light-background" data-aos="zoom-in">
       <h3>My journey</h3>
       <div>
         <Image

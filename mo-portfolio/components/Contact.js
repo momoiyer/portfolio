@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="contact-section light-background">
+    <section className="contact-section light-background" data-aos="zoom-in">
       <h1>Get in touch</h1>
       <p>Feel free to drop a message or arrange a coffee chat with me</p>
       <form>
