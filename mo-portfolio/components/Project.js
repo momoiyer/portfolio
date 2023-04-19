@@ -2,10 +2,15 @@ import Image from 'next/image';
 
 const Project = () => {
   return (
-    <section className="project-section  light-background" data-aos="zoom-out">
-      <h1>Review my projects</h1>
+    <section className="project-section  light-background"
+    // data-aos="zoom-out"
+    >
+      <div className='project-section__title' data-aos="fade-right">
+        <p>WHAT I'VE DONE SO FAR</p>
+        <h1>Portfolio</h1>
+      </div>
 
-      <div className="project-section__carousel">
+      <div className="project-section__carousel" data-aos="fade-left">
         {/* <!-- Carousel wrapper --> */}
         <div id="carouselBasicExample" className="carousel slide carousel-fade" data-mdb-ride="carousel">
           {/* <!-- Indicators --> */}
@@ -46,8 +51,11 @@ const Project = () => {
               {/* <div className="carousel-caption d-none d-md-block"> */}
 
               <div className="carousel-image-description" >
-                <h3>MoJo</h3>
-                <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
+                <h2>MoJo</h2>
+                <p>Mood Management Web App</p>
+                <p>March 2023</p>
+                <span>View Details</span>
+                {/* <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
                 <p>Tech Stack: </p>
                 <div>
                   <Image
@@ -98,7 +106,7 @@ const Project = () => {
                     alt="Draft.js Logo"
                     width={60}
                     height={30} />
-                </div>
+                </div>*/}
               </div>
             </div>
 
@@ -298,7 +306,6 @@ const Project = () => {
         </div>
         {/* <!-- Carousel wrapper --> */}
       </div>
-
 
     </section>
   );
