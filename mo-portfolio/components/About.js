@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const AboutComponent = () => {
+const About = () => {
   return (
     <section className="about-section light-background" data-aos="zoom-in">
       <h3>My journey</h3>
@@ -96,4 +96,4 @@ const AboutComponent = () => {
   );
 };
 
-export default AboutComponent;
+export default About;
