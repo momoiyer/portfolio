@@ -8,7 +8,8 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   color: #f9f3e5 !important;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Philosopher', sans-serif !important;
+  /* font-family: 'Roboto', sans-serif !important; */
   font-size: 1.2rem !important;
   font-weight: 500 !important;
   line-height: 1.5 !important;
@@ -52,7 +53,9 @@ p {
 
 .nav-bar__name-logo {
   color: #323012;
-  font-family: 'Philosopher', sans-serif;
+  /* font-family: 'Philosopher', sans-serif; */
+
+  font-family: 'Gotu', sans-serif;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -76,16 +79,14 @@ p {
 
 /* Intro section */
 .intro-section {
-  /* left: -5rem;
-  position: relative; */
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 1rem;
 }
 
 .intro-section__desc {
+  width: 30%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -95,18 +96,15 @@ p {
 
 .name {
   /* color: #323012; */
-  font-weight: 700;
-  font-size: 2.7rem;
-}
-
-.special-text {
-  font-weight: bold;
-  font-style: italic;
-  /* color: #323012; */
+  font-weight: 600;
+  font-size: 4rem;
 }
 
 .intro-section__image {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro-section__image>img {
@@ -115,12 +113,24 @@ p {
 }
 
 .intro-section__social {
-  width: 50%;
-  padding: 1rem;
+  width: 100%;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: #f9f3e564;
+}
+
+.intro-section__tagline {
+  padding: 1rem;
+  width: 30%;
+  font-family: 'Gotu', sans-serif;
+  font-size: 2rem;
+}
+
+.special-text {
+  /* font-weight: bold; */
+  /* font-style: italic; */
 }
 
 /* About section */

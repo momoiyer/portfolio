@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="footer-section dark-background">
       <div className="footer-section__upper">
         <div>
-          <h4>KHIN MO MO ZIN</h4>
+          <h2>KHIN MO MO ZIN</h2>
           <p>A full stack Web Developer building the Web Applications that leads to the success of the overall product. </p>
         </div>
         <div>
