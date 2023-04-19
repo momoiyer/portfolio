@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="footer-section dark-background">
+    <footer className="footer-section">
       <div className="footer-section__upper">
         <div>
-          <h2>KHIN MO MO ZIN</h2>
-          <p>A full stack Web Developer building the Web Applications that leads to the success of the overall product. </p>
+          <h3>KHIN MO MO ZIN</h3>
+          <p className="footer-section__upper___tagline">A full stack Web Developer building the Web Applications that leads to the success of the overall product. </p>
         </div>
         <div>
           <h5>SOCIAL</h5>

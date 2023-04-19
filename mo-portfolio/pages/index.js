@@ -19,7 +19,7 @@ const Home = () => {
       <header>
         <Nav />
       </header>
-      <div>
+      <div className='main-body'>
         <Intro />
         <About />
         <Project />
