@@ -31,9 +31,9 @@ p {
 .nav-bar {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 10000;
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;

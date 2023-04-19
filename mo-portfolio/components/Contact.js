@@ -47,16 +47,17 @@ const Contact = () => {
           icon='user circle'
           iconPosition='left'
         />
-        <Form.Field>
+        <Form.Field
+          required>
           <label>Email</label>
           <Input
             id='form-input-control-email'
             type='email'
             name='user_email'
             placeholder='Email…'
-            required
             icon='mail'
             iconPosition='left'
+            required
           />
         </Form.Field>
         <Form.Field
@@ -64,7 +65,7 @@ const Contact = () => {
           control={TextArea}
           label='Message'
           name='user_message'
-          placeholder='Drop a message or let me know your available timeslots...'
+          placeholder='Drop a message or let me know available timeslots to chat...'
           required
         />
         <Button type='submit' color='green'>Submit</Button>
