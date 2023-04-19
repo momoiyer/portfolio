@@ -1,33 +1,74 @@
+import { Form, Input, TextArea, Button } from 'semantic-ui-react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
+
 const Contact = () => {
+
+
+  const SERVICE_ID = "service_z87owkf";
+  const TEMPLATE_ID = "template_8tedc7j";
+  const USER_ID = "pmvdggxDNa_KLbrij";
+
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        console.log(result.text);
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent Successfully'
+        });
+      }, (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: 'error',
+          title: 'Ooops, something went wrong',
+          text: error.text,
+        });
+      });
+    e.target.reset();
+  };
+
+
   return (
     <section className="contact-section light-background" data-aos="zoom-in">
       <div className="contact-section__title">
         <h1>Reach out!</h1>
         <p>Feel free to drop a message or arrange a coffee chat with me.</p>
       </div>
-
-      <form>
-        {/* <!-- Name input --> */}
-        <div className="form-outline mb-4">
-          <label className="form-label" htmlFor="form4Example1">Name</label>
-          <input type="text" id="form4Example1" placeholder="enter your full name..." className="form-control" />
-        </div>
-
-        {/* <!-- Email input --> */}
-        <div className="form-outline mb-4">
-          <label className="form-label" htmlFor="form4Example2">Email address</label>
-          <input type="email" id="form4Example2" placeholder="enter your best email..." className="form-control" />
-        </div>
-
-        {/* <!-- Message input --> */}
-        <div className="form-outline mb-4">
-          <label className="form-label" htmlFor="form4Example3">Message</label>
-          <textarea className="form-control" id="form4Example3" placeholder="drop a message or let me know your available timeslots..." rows="4"></textarea>
-        </div>
-
-        {/* <!-- Submit button --> */}
-        <button type="submit" className="btn  btn-block mb-4">submit</button>
-      </form>
+      <Form onSubmit={handleOnSubmit}>
+        <Form.Field
+          id='form-input-control-last-name'
+          control={Input}
+          label='Name'
+          name='user_name'
+          placeholder='Name…'
+          required
+          icon='user circle'
+          iconPosition='left'
+        />
+        <Form.Field>
+          <label>Email</label>
+          <Input
+            id='form-input-control-email'
+            type='email'
+            name='user_email'
+            placeholder='Email…'
+            required
+            icon='mail'
+            iconPosition='left'
+          />
+        </Form.Field>
+        <Form.Field
+          id='form-textarea-control-opinion'
+          control={TextArea}
+          label='Message'
+          name='user_message'
+          placeholder='Drop a message or let me know your available timeslots...'
+          required
+        />
+        <Button type='submit' color='green'>Submit</Button>
+      </Form>
     </section>
   );
 };

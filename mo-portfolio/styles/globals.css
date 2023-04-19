@@ -273,22 +273,47 @@ p {
 .contact-section>form {
   width: 40%;
   padding: 1rem;
+  font-size: 1.2rem !important;
 }
 
-.form-outline>input,
-.form-outline>textarea {
+input,
+textarea {
   background-color: #69663a !important;
-  border-radius: .5rem;
+  padding: 2rem !important;
 }
 
 .contact-section>form>button {
-  background-color: #323012;
+  background-color: #323012 !important;
   color: #F9F9F9;
+  margin-top: 2rem !important;
 }
 
 .contact-section>form>button:hover {
-  background-color: #69663a;
+  background-color: #69663a !important;
 }
+
+/* label {
+  padding: 1.5rem 0 !important;
+} */
+
+/* overwriting successful message sent popup */
+
+.swal2-container>div,
+.swal2-success-circular-line-left,
+.swal2-success-fix,
+.swal2-success-circular-line-right {
+  background-color: #f9f3e5 !important;
+}
+
+.swal2-success-line-tip,
+.swal2-success-line-long {
+  background-color: #69663a !important;
+}
+
+.swal2-success-ring {
+  border-color: #69663a !important;
+}
+
 
 /* Footer section */
 .footer-section {
