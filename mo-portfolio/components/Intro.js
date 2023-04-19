@@ -3,12 +3,12 @@ import Image from 'next/image';
 const Intro = () => {
   return (
 
-    <section className="intro-section dark-background" data-aos="fade-down-right">
-      <div className='intro-section__desc'>
+    <section className="intro-section dark-background" >
+      <div className='intro-section__desc' data-aos="zoom-out">
         <p>Hello! My name is</p>
         <h1 className='name'>mo mo.</h1>
       </div >
-      <div className='intro-section__image'>
+      <div className='intro-section__image' data-aos="flip-right">
         <Image
           src="/mo-portfolio.jpg"
           alt="Picture of me"
@@ -22,7 +22,7 @@ const Intro = () => {
           <i className="fa-solid fa-envelope fa-lg"></i>
         </div>
       </div>
-      <div className='intro-section__tagline'>
+      <div className='intro-section__tagline' data-aos="zoom-out">
         <p> I'm a software engineer who loves to turn problems into opportunities with technology!</p>
       </div>
     </section >

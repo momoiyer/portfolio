@@ -10,7 +10,7 @@ const Project = () => {
         <h1>Portfolio</h1>
       </div>
 
-      <div className="project-section__carousel" data-aos="fade-left">
+      <div className="project-section__carousel" data-aos="flip-left">
         {/* <!-- Carousel wrapper --> */}
         <div id="project-carousel" className="carousel slide carousel-fade" data-mdb-ride="carousel">
           {/* <!-- Indicators --> */}

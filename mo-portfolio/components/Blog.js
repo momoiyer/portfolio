@@ -8,7 +8,7 @@ const Blog = () => {
         <h1>Blog</h1>
       </div>
 
-      <div className="project-section__carousel" data-aos="fade-left">
+      <div className="project-section__carousel" data-aos="flip-left">
         {/* <!-- Carousel wrapper --> */}
         <div id="blog-carousel" className="carousel slide carousel-fade" data-mdb-ride="carousel">
           {/* <!-- Indicators --> */}

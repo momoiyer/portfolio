@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 const Skill = () => {
   return (
-    <section className="skill-section light-background" data-aos="fade-left">
-      <div className='skill-section__title'>
+    <section className="skill-section light-background">
+      <div className='skill-section__title' data-aos="fade-up-right">
         <p>WHAT I CAN DO</p >
         <h1>Skills & Proficiencies</h1>
       </div>
-      <div>
+      <div data-aos="zoom-in-up">
         <p>Languages</p>
         <div className='skill-section__languages'>
           <div className='skill-section__languages-group'>
