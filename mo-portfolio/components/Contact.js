@@ -1,8 +1,11 @@
 const Contact = () => {
   return (
     <section className="contact-section light-background" data-aos="zoom-in">
-      <h1>Reach out!</h1>
-      <p>Feel free to drop a message or arrange a coffee chat with me</p>
+      <div className="contact-section__title">
+        <h1>Reach out!</h1>
+        <p>Feel free to drop a message or arrange a coffee chat with me.</p>
+      </div>
+
       <form>
         {/* <!-- Name input --> */}
         <div className="form-outline mb-4">

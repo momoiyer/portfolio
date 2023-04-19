@@ -63,10 +63,12 @@ p {
   padding: 1rem;
   margin: .5rem;
   border-radius: .5rem;
+  height: 100vh;
 }
 
 .dark-background {
   background-color: #69663a;
+  height: 100vh;
   /* padding: 1rem;
   margin: 1rem 3rem; 
    border-radius: .5rem; */
@@ -314,13 +316,20 @@ p {
 /* Contact Me section */
 .contact-section {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
+  padding: 1rem;
+}
+
+.contact-section__title {
+  width: 30%;
+  padding: 1rem;
 }
 
 .contact-section>form {
-  width: 50%;
+  width: 40%;
+  padding: 1rem;
 }
 
 .form-outline>input,
@@ -343,6 +352,7 @@ p {
   border-radius: 0;
   margin: 0;
   width: 100%;
+  height: 30vh;
   position: relative;
   display: flex;
   flex-direction: column;
