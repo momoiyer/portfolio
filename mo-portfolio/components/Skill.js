@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Skill = () => {
   return (
-    <section className="skill-section  dark-background" data-aos="fade-left">
+    <section className="skill-section light-background" data-aos="fade-left">
       <div className='skill-section__title'>
         <p>WHAT I CAN DO</p >
-        <h1>Skills & Proficies</h1>
+        <h1>Skills & Proficiencies</h1>
       </div>
       <div>
         <p>Languages</p>

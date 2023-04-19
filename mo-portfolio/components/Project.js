@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Project = () => {
   return (
-    <section className="project-section  light-background"
+    <section className="project-section  dark-background"
     // data-aos="zoom-out"
     >
       <div className='project-section__title' data-aos="fade-right">
@@ -118,10 +118,12 @@ const Project = () => {
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
 
               <div className="carousel-image-description" >
-                <h2>MoJo</h2>
-                <p>Mood Management Web App</p>
-                <p>March 2023</p>
-                <span>View Details</span>
+                <div>
+                  <h2>MoJo</h2>
+                  <p>Mood Management Web App</p>
+                  <p>March 2023</p>
+                </div>
+                <button className='carousel-item__button'>Click for full portfolio</button>
                 {/* <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
                 <p>Tech Stack: </p>
                 <div>
@@ -182,10 +184,12 @@ const Project = () => {
             <div className="carousel-item">
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" className="d-block w-100" alt="Cliff Above a Stormy Sea" />
               <div className="carousel-image-description" >
-                <h2>MoJo</h2>
-                <p>Mood Management Web App</p>
-                <p>March 2023</p>
-                <span>View Details</span>
+                <div>
+                  <h2>MoJo</h2>
+                  <p>Mood Management Web App</p>
+                  <p>March 2023</p>
+                </div>
+                <button className='carousel-item__button'>Click for full portfolio</button>
                 {/* <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
                 <p>Tech Stack: </p>
                 <div>
@@ -247,10 +251,12 @@ const Project = () => {
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
 
               <div className="carousel-image-description" >
-                <h2>MoJo</h2>
-                <p>Mood Management Web App</p>
-                <p>March 2023</p>
-                <span>View Details</span>
+                <div>
+                  <h2>MoJo</h2>
+                  <p>Mood Management Web App</p>
+                  <p>March 2023</p>
+                </div>
+                <button className='carousel-item__button'>Click for full portfolio</button>
                 {/* <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
                 <p>Tech Stack: </p>
                 <div>
@@ -323,6 +329,14 @@ const Project = () => {
 
     </section >
   );
+
+  //   #000000
+  // #323012
+  // #69663a
+  // #f9f3e5
+  // #ffffff
+
 };
 
 export default Project;
+
