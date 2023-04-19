@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav className='nav-bar'>
       {/* include link with logo to go back to home */}
-      <span className='nav-bar__name-logo'><a href='/'>Khin Mo Mo Zin</a></span>
+      <span><a href='/' className='nav-bar__name-logo'>Khin Mo Mo Zin</a></span>
       <ul>
         <li><a href='/about'>about</a> </li>
         <li><a href='/about'>skills</a></li>

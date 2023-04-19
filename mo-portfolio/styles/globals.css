@@ -41,6 +41,10 @@ p {
   list-style: none;
 }
 
+.nav-bar>ul>li>a {
+  color: #124559;
+}
+
 .nav-bar__name-logo {
   color: #01161E;
   font-family: 'Philosopher', sans-serif;
@@ -133,9 +137,12 @@ p {
   right: -5rem;
   position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.skill-section__title>p {
+  padding-bottom: 1rem;
 }
 
 .skill-section__languages {
@@ -143,7 +150,7 @@ p {
   padding: 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
 }
 
@@ -153,10 +160,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.skill-section>p {
-  color: #F9F9F9;
 }
 
 .language-desc {
