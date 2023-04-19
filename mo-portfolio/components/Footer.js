@@ -7,8 +7,8 @@ const Footer = () => {
           <p className="footer-section__upper___tagline">A full stack Web Developer building the Web Applications that leads to the success of the overall product. </p>
         </div>
         <div>
-          <h5>SOCIAL</h5>
-          <div>
+          <h3>Connect with me</h3>
+          <div className="footer-section__upper__social">
             <a href="" class="me-4 text-reset">
               <i class="fab fa-linkedin"></i>
             </a>
@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <div></div>
       <div class="footer-section__lower">
-        <span>&copy; 2023. Made by </span>
+        <span>&copy; copyright 2023. Made by </span>
         <a rel="noreferrer" target="_blank" href="https://khinmomozin.com">Khin Mo Mo Zin</a>
       </div>
     </footer>

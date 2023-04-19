@@ -292,12 +292,7 @@ textarea {
   background-color: #69663a !important;
 }
 
-/* label {
-  padding: 1.5rem 0 !important;
-} */
-
 /* overwriting successful message sent popup */
-
 .swal2-container>div,
 .swal2-success-circular-line-left,
 .swal2-success-fix,
@@ -322,14 +317,16 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #323012;
+  background-color: #000000;
+  color: #f9f3e5;
 }
 
 .footer-section__upper {
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 3rem;
 }
 
 .footer-section__upper___tagline {
@@ -342,25 +339,25 @@ textarea {
 }
 
 .footer-section__upper>div:nth-child(1) {
-  width: 50%;
-}
-
-.footer-section__upper>div:nth-child(1)>h4 {
-  margin-bottom: 2rem;
-}
-
-.footer-section__upper>div:nth-child(2)>h5 {
-  margin-bottom: 1rem;
+  width: 35%;
 }
 
 .footer-section>div:nth-child(2) {
   background-color: #f9f3e530;
-  width: 100%;
+  width: 95%;
   height: .1rem;
 }
 
+.footer-section__upper>div>h3 {
+  color: #69663a;
+}
+
+.footer-section__upper__social>a:hover {
+  color: #69663a !important;
+}
+
 .footer-section__lower {
-  color: #F9F9F9;
+  color: #69663a;
   font-size: .8rem;
   padding: 1rem;
 }
@@ -368,7 +365,7 @@ textarea {
 .footer-section__lower>a {
   font-weight: bold;
   text-decoration: underline;
-  color: #F9F9F9;
+  color: #69663a;
 }
 
 @media only screen and (max-width: 600px) {
