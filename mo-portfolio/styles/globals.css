@@ -143,7 +143,7 @@ p {
 }
 
 .about-section__item-left {
-  padding-left: 15rem;
+  padding-left: 10rem;
   padding-right: 0;
 }
 
@@ -151,21 +151,61 @@ p {
   background-image: url("/about-me/journey-item-background.png");
   background-size: 100% 100%;
   width: 40rem;
-  height: 8rem;
-  padding: 4rem;
+  height: 8.7rem;
   color: #f9f3e5;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  padding: 2rem;
+}
+
+.about-section__item-image {
+  display: flex;
 }
 
 .about-section__item-image>img {
   padding: .5rem;
 }
 
-.about-section__item-image {
-  display: flex;
-  padding: .5rem;
+.about-section__item-image>img:nth-child(1) {
+  align-self: flex-start;
+}
+
+.about-section__item-image>img:nth-child(2) {
+  align-self: flex-end;
+}
+
+.about-section__item-desc {
+  width: 90%;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.dash-1 {
+  position: absolute;
+  top: 7.5rem;
+  left: 50rem;
+  transform: rotate(-15deg);
+}
+
+.dash-2 {
+  position: absolute;
+  top: 13.5rem;
+  left: 45rem;
+  transform: rotate(138deg);
+}
+
+.dash-3 {
+  position: absolute;
+  top: 22rem;
+  left: 52rem;
+  transform: rotate(215deg);
+}
+
+.dash-4 {
+  position: absolute;
+  top: 42rem;
+  left: 51rem;
+  transform: rotate(-35deg);
 }
 
 /* Skill section */

@@ -14,30 +14,29 @@ const About = () => {
               <Image
                 src="/about-me/start.png"
                 alt="start of journey"
-                width={70}
-                height={70} />
+                width={65}
+                height={65} />
             </div>
-            <div>
+            <div className='about-section__item-desc'>
               <h3>1993-2019</h3>
               <p>Born in Myanmar and been dreaming to migrate to Canada</p>
             </div>
           </div>
         </div>
         <div className='about-section__item about-section__item-left'>
-          <div className='about-section__item-background'>
-            <div className='about-section__item-image'>
-              <Image
-                src="/about-me/moving.png"
-                alt="start of journey"
-                width={50}
-                height={50} />
-              <Image
-                src="/about-me/graduate.png"
-                alt="start of journey"
-                width={50}
-                height={50} />
-            </div>
-            <div>
+          <div className='about-section__item-background'> <div className='about-section__item-image'>
+            <Image
+              src="/about-me/moving.png"
+              alt="start of journey"
+              width={55}
+              height={55} />
+            <Image
+              src="/about-me/graduate.png"
+              alt="start of journey"
+              width={55}
+              height={55} />
+          </div>
+            <div className='about-section__item-desc'>
               <h3>1993-2019</h3>
               <p>Born in Myanmar and been dreaming to migrate to Canada</p>
             </div>
@@ -50,35 +49,34 @@ const About = () => {
               <Image
                 src="/about-me/student.png"
                 alt="start of journey"
-                width={50}
-                height={50} />
+                width={55}
+                height={55} />
               <Image
                 src="/about-me/developer.png"
                 alt="start of journey"
-                width={50}
-                height={50} />
+                width={55}
+                height={55} />
             </div>
-            <div>
+            <div className='about-section__item-desc'>
               <h3>1993-2019</h3>
               <p>Born in Myanmar and been dreaming to migrate to Canada</p>
             </div>
           </div>
         </div>
         <div className='about-section__item about-section__item-left'>
-          <div className='about-section__item-background'>
-            <div className='about-section__item-image'>
-              <Image
-                src="/about-me/canada.png"
-                alt="start of journey"
-                width={50}
-                height={50} />
-              <Image
-                src="/about-me/idea.png"
-                alt="start of journey"
-                width={50}
-                height={50} />
-            </div>
-            <div>
+          <div className='about-section__item-background'> <div className='about-section__item-image'>
+            <Image
+              src="/about-me/canada.png"
+              alt="start of journey"
+              width={55}
+              height={55} />
+            <Image
+              src="/about-me/idea.png"
+              alt="start of journey"
+              width={55}
+              height={55} />
+          </div>
+            <div className='about-section__item-desc'>
               <h3>1993-2019</h3>
               <p>Born in Myanmar and been dreaming to migrate to Canada</p>
             </div>
@@ -91,15 +89,15 @@ const About = () => {
               <Image
                 src="/about-me/bootcamp.png"
                 alt="start of journey"
-                width={50}
-                height={50} />
+                width={55}
+                height={55} />
               <Image
                 src="/about-me/volunteer.png"
                 alt="start of journey"
-                width={50}
-                height={50} />
+                width={55}
+                height={55} />
             </div>
-            <div>
+            <div className='about-section__item-desc'>
               <h3>1993-2019</h3>
               <p>Born in Myanmar and been dreaming to migrate to Canada</p>
             </div>
@@ -107,7 +105,35 @@ const About = () => {
         </div>
       </div>
 
+      <div className='dash-1'>
+        <Image
+          src="/about-me/dash3.png"
+          alt="start of journey"
+          width={150}
+          height={180} />
+      </div>
+      <div className='dash-2'>
+        <Image
+          src="/about-me/dash2.png"
+          alt="start of journey"
+          width={160}
+          height={160} />
+      </div>
 
+      <div className='dash-3'>
+        <Image
+          src="/about-me/dash1.png"
+          alt="start of journey"
+          width={180}
+          height={200} />
+      </div>
+      <div className='dash-4'>
+        <Image
+          src="/about-me/dash2.png"
+          alt="start of journey"
+          width={160}
+          height={160} />
+      </div>
 
       {/* <Image
         src="/about-me/frame.png"
