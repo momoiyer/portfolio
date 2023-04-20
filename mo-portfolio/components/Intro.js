@@ -6,7 +6,7 @@ const Intro = () => {
     <section className="intro-section dark-background" >
       <div className='intro-section__desc' data-aos="zoom-out">
         <p>Hello! My name is</p>
-        <h1 className='name'>mo mo.</h1>
+        <h1 className='name'>Mo Mo.</h1>
       </div >
       <div className='intro-section__image' data-aos="flip-right">
         <Image

@@ -6,11 +6,114 @@ const About = () => {
       <div className='about-section__title'>
         <h1>My Journey</h1>
       </div>
-      <Image
-        src="/about-me/col-journey.png"
+
+      <div className='about-section__item_list'>
+        <div className='about-section__item'>
+          <div className='about-section__item-background'>
+            <div className='about-section__item-image'>
+              <Image
+                src="/about-me/start.png"
+                alt="start of journey"
+                width={70}
+                height={70} />
+            </div>
+            <div>
+              <h3>1993-2019</h3>
+              <p>Born in Myanmar and been dreaming to migrate to Canada</p>
+            </div>
+          </div>
+        </div>
+        <div className='about-section__item about-section__item-left'>
+          <div className='about-section__item-background'>
+            <div className='about-section__item-image'>
+              <Image
+                src="/about-me/moving.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+              <Image
+                src="/about-me/graduate.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+            </div>
+            <div>
+              <h3>1993-2019</h3>
+              <p>Born in Myanmar and been dreaming to migrate to Canada</p>
+            </div>
+
+          </div>
+        </div>
+        <div className='about-section__item'>
+          <div className='about-section__item-background'>
+            <div className='about-section__item-image'>
+              <Image
+                src="/about-me/student.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+              <Image
+                src="/about-me/developer.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+            </div>
+            <div>
+              <h3>1993-2019</h3>
+              <p>Born in Myanmar and been dreaming to migrate to Canada</p>
+            </div>
+          </div>
+        </div>
+        <div className='about-section__item about-section__item-left'>
+          <div className='about-section__item-background'>
+            <div className='about-section__item-image'>
+              <Image
+                src="/about-me/canada.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+              <Image
+                src="/about-me/idea.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+            </div>
+            <div>
+              <h3>1993-2019</h3>
+              <p>Born in Myanmar and been dreaming to migrate to Canada</p>
+            </div>
+
+          </div>
+        </div>
+        <div className='about-section__item'>
+          <div className='about-section__item-background'>
+            <div className='about-section__item-image'>
+              <Image
+                src="/about-me/bootcamp.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+              <Image
+                src="/about-me/volunteer.png"
+                alt="start of journey"
+                width={50}
+                height={50} />
+            </div>
+            <div>
+              <h3>1993-2019</h3>
+              <p>Born in Myanmar and been dreaming to migrate to Canada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* <Image
+        src="/about-me/frame.png"
         alt="start of journey"
-        width={900}
-        height={900} />
+        width={420}
+        height={120} /> */}
       {/* <div>
         <Image
           src="/about-me/start.png"
