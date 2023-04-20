@@ -128,7 +128,12 @@ p {
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.about-section__title {
+  width: 25%;
+  padding-left: 5rem;
 }
 
 .about-section__item_list {
@@ -150,12 +155,17 @@ p {
 .about-section__item-background {
   background-image: url("/about-me/journey-item-background.png");
   background-size: 100% 100%;
-  width: 40rem;
+  width: 48rem;
   height: 8.7rem;
   color: #f9f3e5;
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+}
+
+.about-section__item-background>p {
+  padding: .5rem;
+  font-size: 1rem;
 }
 
 .about-section__item-image {
