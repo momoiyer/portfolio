@@ -3,8 +3,15 @@ import Image from 'next/image';
 const About = () => {
   return (
     <section className="about-section light-background" data-aos="zoom-in">
-      <h3>My journey</h3>
-      <div>
+      <div className='about-section__title'>
+        <h1>My Journey</h1>
+      </div>
+      <Image
+        src="/about-me/col-journey.png"
+        alt="start of journey"
+        width={900}
+        height={900} />
+      {/* <div>
         <Image
           src="/about-me/start.png"
           alt="start of journey"
@@ -91,7 +98,7 @@ const About = () => {
           width={70}
           height={70} />
         <p>Currently volunteering at local startup as a full stack developer and team lead of the front-end web team</p>
-      </div>
+      </div> */}
     </section>
   );
 };
