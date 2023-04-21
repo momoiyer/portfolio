@@ -215,7 +215,7 @@ p {
   padding-left: 1rem;
 }
 
-.dash-1 {
+/* .dash-1 {
   position: absolute;
   top: 7.5rem;
   left: 50rem;
@@ -241,7 +241,7 @@ p {
   top: 42rem;
   left: 51rem;
   transform: rotate(-35deg);
-}
+} */
 
 /* Skill section */
 .skill-section {
