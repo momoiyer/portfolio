@@ -369,6 +369,43 @@ p {
   transition: opacity 0s 0s;
 }
 
+#project1Details {
+  margin-top: 10vh !important;
+}
+
+.modal-header,
+.modal-footer {
+  border-bottom: #323012 !important;
+  border-top: #323012 !important;
+}
+
+.modal-content {
+  background-color: #f9f3e5;
+  color: #323012;
+}
+
+.modal-body__source-code___git {
+  color: #323012;
+}
+
+.modal-body__source-code___git:hover {
+  color: #69663a;
+}
+
+.modal-button {
+  background-color: #323012;
+  border: 0;
+  padding: .5rem;
+  border-radius: .3rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.modal-button:hover {
+  background-color: #69663a;
+  color: #000000;
+}
+
 /* Blog section */
 .blog-section {
   display: flex;

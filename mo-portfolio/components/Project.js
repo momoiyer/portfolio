@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Project = () => {
   return (
@@ -67,59 +68,7 @@ const Project = () => {
                   <p>Mood Management Web App</p>
                   <p>March 2023</p>
                 </div>
-                <button className='carousel-item__button'>Click for full portfolio</button>
-                {/* <p>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
-                <p>Tech Stack: </p>
-                <div>
-                  <Image
-                    src="/skill-logo/node.svg"
-                    alt="Node.js Logo"
-                    width={50}
-                    height={30} />
-                  <Image
-                    src="/skill-logo/express.svg"
-                    alt="Express Logo"
-                    width={30}
-                    height={30} />
-                  <Image
-                    src="/skill-logo/react.svg"
-                    alt="React Logo"
-                    width={30}
-                    height={30} />
-                  <Image
-                    src="/skill-logo/sass.svg"
-                    alt="SASS Logo"
-                    width={30}
-                    height={30} />
-                  <Image
-                    src="/skill-logo/postgres.svg"
-                    alt="Postgres Logo"
-                    width={30}
-                    height={30} />
-                </div>
-                <p>API & Libraries: </p>
-                <div>
-                  <Image
-                    src="/colored-logo/fullcalendar.png"
-                    alt="React Full Calendar Logo"
-                    width={40}
-                    height={40} />
-                  <Image
-                    src="/colored-logo/draftjs.svg"
-                    alt="Draft.js Logo"
-                    width={30}
-                    height={30} />
-                  <Image
-                    src="/colored-logo/spotify.png"
-                    alt="Draft.js Logo"
-                    width={30}
-                    height={30} />
-                  <Image
-                    src="/colored-logo/weather.png"
-                    alt="Draft.js Logo"
-                    width={60}
-                    height={30} />
-                </div>*/}
+                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">Click for full portfolio</button>
               </div>
             </div>
 
@@ -212,14 +161,91 @@ const Project = () => {
         {/* <!-- Carousel wrapper --> */}
       </div>
 
+
+
+
+      {/* <!-- Modal --> */}
+      <div className="modal fade" id="project1Details" tabindex="-1" aria-labelledby="project1DetailsLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="project1DetailsLabel">Project Details</h5>
+              <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <p className='modal-body__desc'>A mood management web app for daily journaling, habit tracking, and music suggestion to match the current mood.</p>
+              <div className='modal-body__tech-stack'>
+                <p>Tech Stack: </p>
+                <div>
+                  <Image
+                    src="/skill-logo/node.svg"
+                    alt="Node.js Logo"
+                    width={50}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/express.svg"
+                    alt="Express Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/react.svg"
+                    alt="React Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/sass.svg"
+                    alt="SASS Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/skill-logo/postgres.svg"
+                    alt="Postgres Logo"
+                    width={30}
+                    height={30} />
+                </div>
+              </div>
+              <div className='modal-body__api-lib'>
+                <p>API & Libraries: </p>
+                <div>
+                  <Image
+                    src="/colored-logo/fullcalendar.png"
+                    alt="React Full Calendar Logo"
+                    width={40}
+                    height={40} />
+                  <Image
+                    src="/colored-logo/draftjs.svg"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/spotify.png"
+                    alt="Draft.js Logo"
+                    width={30}
+                    height={30} />
+                  <Image
+                    src="/colored-logo/weather.png"
+                    alt="Draft.js Logo"
+                    width={60}
+                    height={30} />
+                </div>
+              </div>
+              <div className='modal-body__source-code'>
+                <Link href="https://github.com/MoMoZin/MoJo" legacyBehavior>
+                  <a target="_blank" className='modal-body__source-code___git'>
+                    <i className="fa-brands fa-github fa-lg"></i>
+                    <span>View Source Code</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="modal-footer">
+              <button type="button" className="modal-button" data-mdb-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section >
   );
-
-  //   #000000
-  // #323012
-  // #69663a
-  // #f9f3e5
-  // #ffffff
 
 };
 
