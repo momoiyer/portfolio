@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Intro = () => {
   return (
@@ -16,10 +17,29 @@ const Intro = () => {
           height={570} />
 
         <div className='intro-section__social'>
-          <i className="fa-brands fa-linkedin fa-lg"></i>
-          <i className="fa-brands fa-github fa-lg"></i>
-          <i className="fa-solid fa-blog fa-lg"></i>
-          <i className="fa-solid fa-envelope fa-lg"></i>
+          <Link href="https://www.linkedin.com/in/khinmomozin/" legacyBehavior>
+            <a target="_blank" className='intro-section__social_item'>
+              <i className="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+          </Link>
+
+          <Link href="https://github.com/MoMoZin" legacyBehavior>
+            <a target="_blank" className='intro-section__social_item'>
+              <i className="fa-brands fa-github fa-lg"></i>
+            </a>
+          </Link>
+
+          <Link href="https://medium.com/@khinmomozin" legacyBehavior>
+            <a target="_blank" className='intro-section__social_item'>
+              <i className="fa-solid fa-blog fa-lg"></i>
+            </a>
+          </Link>
+
+          <Link href="mailto:khinmomozin@gmail.com" legacyBehavior>
+            <a target="_blank" className='intro-section__social_item'>
+              <i className="fa-solid fa-envelope fa-lg"></i>
+            </a>
+          </Link>
         </div>
       </div>
       <div className='intro-section__tagline' data-aos="zoom-out">
