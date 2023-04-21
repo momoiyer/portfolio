@@ -40,7 +40,7 @@ const Footer = () => {
       <div></div>
       <div class="footer-section__lower">
         <span>&copy; copyright 2023. Made by </span>
-        <a rel="noreferrer" target="_blank" href="https://khinmomozin.com">Khin Mo Mo Zin</a>
+        <a rel="noreferrer" target="_blank" href="https://github.com/MoMoZin/portfolio">Khin Mo Mo Zin</a>
       </div>
     </footer>
   );
