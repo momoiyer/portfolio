@@ -359,6 +359,11 @@ p {
   color: #ffffff;
 }
 
+.carousel-item__button:hover {
+  background-color: #f9f3e5;
+  color: #000000;
+}
+
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0s 0s;
@@ -470,7 +475,7 @@ textarea {
   color: #69663a;
 }
 
-.footer-section__upper__social>a:hover {
+.text-reset:hover {
   color: #69663a !important;
 }
 
