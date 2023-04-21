@@ -384,12 +384,54 @@ p {
   color: #323012;
 }
 
+.modal-title {
+  font-size: 2.5rem;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body__desc {
+  padding: 0rem 1rem;
+}
+
+.modal-body__tech-stack {
+  padding: 1rem;
+}
+
+.modal-body__api-lib {
+  padding: 1rem;
+}
+
+.modal-body__tech-stack>div,
+.modal-body__api-lib>div {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal-body__source-code {
+  background-color: #69663a;
+  border-radius: .5rem;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1rem;
+
+}
+
 .modal-body__source-code___git {
-  color: #323012;
+  color: #f9f3e5;
 }
 
 .modal-body__source-code___git:hover {
-  color: #69663a;
+  color: #000000;
+}
+
+.modal-body__source-code___git>i {
+  padding: .5rem;
 }
 
 .modal-button {
