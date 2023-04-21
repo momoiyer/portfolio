@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Blog = () => {
   return (
-    <section className="blog-section  dark-background" data-aos="fade-right">
+    <section className="blog-section  dark-background" data-aos="fade-right" id='blogs'>
       <div className='blog-section__title' data-aos="fade-right">
         <p>WHAT I WROTE</p>
         <h1>Blog</h1>

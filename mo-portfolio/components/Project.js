@@ -2,9 +2,7 @@ import Image from 'next/image';
 
 const Project = () => {
   return (
-    <section className="project-section  dark-background"
-    // data-aos="zoom-out"
-    >
+    <section className="project-section  dark-background" id="projects">
       <div className='project-section__title' data-aos="fade-right">
         <p>WHAT I'VE DONE SO FAR</p>
         <h1>Portfolio</h1>

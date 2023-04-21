@@ -54,8 +54,12 @@ p {
   list-style: none;
 }
 
-.nav-bar>ul>li>a {
-  color: #69663a;
+.nav-bar__item {
+  color: #69663a !important;
+}
+
+.nav-bar__item:hover {
+  color: #f9f3e5 !important;
 }
 
 .nav-bar__name-logo {
@@ -63,6 +67,10 @@ p {
   font-family: 'Gotu', sans-serif;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.nav-bar__name-logo:hover {
+  color: #69663a;
 }
 
 /* Body Styles */

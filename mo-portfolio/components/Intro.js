@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Intro = () => {
   return (
 
-    <section className="intro-section dark-background" >
+    <section className="intro-section dark-background" id='intro' >
       <div className='intro-section__desc' data-aos="zoom-out">
         <p>Hello! My name is</p>
         <h1 className='name'>Mo Mo.</h1>
