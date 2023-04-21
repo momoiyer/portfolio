@@ -17,6 +17,7 @@ body {
 h1,
 h2 {
   font-family: 'Gotu', sans-serif;
+  font-size: 3rem;
 }
 
 p {
@@ -136,6 +137,10 @@ p {
   padding-left: 5rem;
 }
 
+.about-section__title>p {
+  font-size: 1.4rem;
+}
+
 .about-section__item_list {
   display: flex;
   flex-direction: column;
@@ -206,7 +211,7 @@ p {
 
 .about-section__item-desc {
   width: 90%;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding-left: 1rem;
 }
 

@@ -21,7 +21,7 @@ const About = () => {
             {/* <p>1993-2009</p> */}
             <div className='about-section__item-desc'>
               {/* <h3>1993-2009</h3> */}
-              <p>Born in Myanmar and been dreaming of migrating to Canada after seeing beautiful scenery in the movie 'X-Men Origins: Wolverine'</p>
+              <p>Born in Myanmar and been dreaming of migrating to Canada after seeing beautiful scenery in the movie 'X-Men Origins: Wolverine'.</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const About = () => {
             </div>
             {/* <p>2009-2017</p> */}
             <div className='about-section__item-desc'>
-              <p>Migrated to Singapore. Graudated with BSc. in Information System & Software Engineering. Worked at IBM Datacenter supporting & supervising the IT Operation Team for 4 years</p>
+              <p>Migrated to Singapore. Graudated with BSc. in Information System & Software Engineering. Worked at IBM Datacenter supporting & supervising the IT Operation Team for 4 years.</p>
             </div>
 
           </div>
@@ -81,7 +81,7 @@ const About = () => {
           </div>
             {/* <p>2020-2023</p> */}
             <div className='about-section__item-desc'>
-              <p>Finally migrated to my dream country, Canada! Taking advantage of new found freedom, started exploring the entrepreneur side of me and started an E-commerce business with Amazon. Achieved high customer rating and profit margin.</p>
+              <p>Finally migrated to my dream country, Canada! Started exploring the entrepreneur side of me and started an E-commerce business with Amazon. Achieved high customer rating and profit margin.</p>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const About = () => {
             </div>
             {/* <p>2013-present</p> */}
             <div className='about-section__item-desc'>
-              <p>After almost 3 years, started missing my true passion of programming and joined bootcamp to modernize my tech stack. Currently volunteering at Calgary startup as a full stack developer and team lead of the front-end team.</p>
+              <p>After 3 years, realized that my true passion will always be programming and joined bootcamp to modernize my tech stack. Currently volunteering at Calgary startup as a full stack developer and lead of the front-end team.</p>
             </div>
           </div>
         </div>
