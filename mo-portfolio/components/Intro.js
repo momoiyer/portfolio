@@ -14,7 +14,8 @@ const Intro = () => {
           src="/mo-portfolio.jpg"
           alt="Picture of me"
           width={450}
-          height={570} />
+          height={570}
+          className="d-block w-100 h-100" />
 
         <div className='intro-section__social'>
           <Link href="https://www.linkedin.com/in/khinmomozin/" legacyBehavior>
