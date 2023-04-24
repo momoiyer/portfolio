@@ -77,14 +77,9 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" className="d-block w-100" alt="Cliff Above a Stormy Sea" />
+              <img src="/projects/scheduler/scheduler.png" alt="Scheduler" />
               <div className="carousel-image-description" >
-                <div>
-                  <h2>Interview Scheduler</h2>
-                  <p>Interview Scheduler between users and interviewers</p>
-                  <p>March 2023</p>
-                </div>
-                <button className='carousel-item__button'>Click for full portfolio</button>
+                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">Click for full portfolio</button>
               </div>
             </div>
 
@@ -268,6 +263,105 @@ const Project = () => {
             </div>
             <div className="modal-body">
               <p className='modal-body__desc'>A responsive web app that allows users to collaboratively create maps which list multiple "points".</p>
+              <div className='modal-body__tech-stack'>
+                <p>Tech Stack: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/nodejs.png"
+                      alt="Node.js Logo"
+                      width={50}
+                      height={30} />
+                    <span className='language-desc'>Node.js</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/skill-logo/express.svg"
+                      alt="Express Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>Express</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/jquery.png"
+                      alt="jQuery Logo"
+                      width={50}
+                      height={30} />
+                    <span className='language-desc'>jQuery</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/html5.png"
+                      alt="html5 Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>HTML5</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/css3.png"
+                      alt="CSS3 Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>CSS3</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/postgres.png"
+                      alt="Postgres Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>Postgres</span>
+                  </div>
+                </div>
+              </div>
+              <div className='modal-body__api-lib'>
+                <p>API & Libraries: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/leaflet.png"
+                      alt="React Full Calendar Logo"
+                      width={80}
+                      height={30} />
+                    <span className='language-desc'>leaflet</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/geoapify.png"
+                      alt="Draft.js Logo"
+                      width={70}
+                      height={30} />
+                    <span className='language-desc'>GeoApify</span>
+                  </div>
+
+                </div>
+              </div>
+              <div className='modal-body__source-code'>
+                <Link href="https://github.com/MoMoZin/wikimap" legacyBehavior>
+                  <a target="_blank" className='modal-body__source-code___git'>
+                    <i className="fa-brands fa-github fa-lg"></i>
+                    <span>View Source Code</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* <!-- Scheduler Modal --> */}
+      <div className="modal fade" id="project3Details" tabindex="-1" aria-labelledby="project3DetailsLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h2 className="modal-title" id="project3DetailsLabel">Project Details</h2>
+              <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <p className='modal-body__desc'>A web app that allows users to schedule interviews with interviewers.</p>
               <div className='modal-body__tech-stack'>
                 <p>Tech Stack: </p>
                 <div>
