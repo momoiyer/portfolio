@@ -86,15 +86,10 @@ const Project = () => {
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
 
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
+              <img src="/projects/tweeter/tweeter.png" alt="tweeter" />
 
               <div className="carousel-image-description" >
-                <div>
-                  <h2>Twetter</h2>
-                  <p>Twitter Clone Web App</p>
-                  <p>Feb 2023</p>
-                </div>
-                <button className='carousel-item__button'>Click for full portfolio</button>
+                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for full portfolio</button>
               </div>
             </div>
 
@@ -367,6 +362,89 @@ const Project = () => {
                 <div>
                   <div className='skill-section__languages-group'>
                     <Image
+                      src="/colored-logo/react.png"
+                      alt="React Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>React</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/sass.svg"
+                      alt="SASS Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>SASS</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/axios.png"
+                      alt="Axios Logo"
+                      width={120}
+                      height={30} />
+                    <span className='language-desc'>Axios</span>
+                  </div>
+                </div>
+              </div>
+              <div className='modal-body__api-lib'>
+                <p>Testing: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/cypress.svg"
+                      alt="cypress Logo"
+                      width={80}
+                      height={30} />
+                    <span className='language-desc'>Cypress</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/jest.svg"
+                      alt="jest Logo"
+                      width={70}
+                      height={30} />
+                    <span className='language-desc'>Jest</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/storybook.svg"
+                      alt="storybook Logo"
+                      width={70}
+                      height={30} />
+                    <span className='language-desc'>Storybook</span>
+                  </div>
+
+                </div>
+              </div>
+              <div className='modal-body__source-code'>
+                <Link href="https://github.com/MoMoZin/scheduler" legacyBehavior>
+                  <a target="_blank" className='modal-body__source-code___git'>
+                    <i className="fa-brands fa-github fa-lg"></i>
+                    <span>View Source Code</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* <!-- WikiMap Modal --> */}
+      <div className="modal fade" id="project4Details" tabindex="-1" aria-labelledby="project4DetailsLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h2 className="modal-title" id="project4DetailsLabel">Project Details</h2>
+              <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <p className='modal-body__desc'> Tweeter is a simple, single-page responsive web app and clone of Twitter</p>
+              <div className='modal-body__tech-stack'>
+                <p>Tech Stack: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
                       src="/colored-logo/nodejs.png"
                       alt="Node.js Logo"
                       width={50}
@@ -415,30 +493,9 @@ const Project = () => {
                   </div>
                 </div>
               </div>
-              <div className='modal-body__api-lib'>
-                <p>API & Libraries: </p>
-                <div>
-                  <div className='skill-section__languages-group'>
-                    <Image
-                      src="/colored-logo/leaflet.png"
-                      alt="React Full Calendar Logo"
-                      width={80}
-                      height={30} />
-                    <span className='language-desc'>leaflet</span>
-                  </div>
-                  <div className='skill-section__languages-group'>
-                    <Image
-                      src="/colored-logo/geoapify.png"
-                      alt="Draft.js Logo"
-                      width={70}
-                      height={30} />
-                    <span className='language-desc'>GeoApify</span>
-                  </div>
 
-                </div>
-              </div>
               <div className='modal-body__source-code'>
-                <Link href="https://github.com/MoMoZin/wikimap" legacyBehavior>
+                <Link href="https://github.com/MoMoZin/tweeter-mo" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
                     <span>View Source Code</span>
