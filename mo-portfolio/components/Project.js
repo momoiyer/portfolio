@@ -289,19 +289,27 @@ const Project = () => {
                   </div>
                   <div className='skill-section__languages-group'>
                     <Image
-                      src="/colored-logo/react.png"
-                      alt="React Logo"
-                      width={30}
+                      src="/colored-logo/jquery.png"
+                      alt="jQuery Logo"
+                      width={50}
                       height={30} />
-                    <span className='language-desc'>React</span>
+                    <span className='language-desc'>jQuery</span>
                   </div>
                   <div className='skill-section__languages-group'>
                     <Image
-                      src="/colored-logo/sass.svg"
-                      alt="SASS Logo"
+                      src="/colored-logo/html5.png"
+                      alt="html5 Logo"
                       width={30}
                       height={30} />
-                    <span className='language-desc'>SASS</span>
+                    <span className='language-desc'>HTML5</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/css3.png"
+                      alt="CSS3 Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>CSS3</span>
                   </div>
                   <div className='skill-section__languages-group'>
                     <Image
@@ -318,40 +326,25 @@ const Project = () => {
                 <div>
                   <div className='skill-section__languages-group'>
                     <Image
-                      src="/colored-logo/fullcalendar.png"
+                      src="/colored-logo/leaflet.png"
                       alt="React Full Calendar Logo"
-                      width={30}
+                      width={80}
                       height={30} />
-                    <span className='language-desc'>React Fullcalendar</span>
+                    <span className='language-desc'>leaflet</span>
                   </div>
                   <div className='skill-section__languages-group'>
                     <Image
-                      src="/colored-logo/draftjs.svg"
+                      src="/colored-logo/geoapify.png"
                       alt="Draft.js Logo"
-                      width={30}
+                      width={70}
                       height={30} />
-                    <span className='language-desc'>Darft.js</span>
+                    <span className='language-desc'>GeoApify</span>
                   </div>
-                  <div className='skill-section__languages-group'>
-                    <Image
-                      src="/colored-logo/spotify.png"
-                      alt="Draft.js Logo"
-                      width={30}
-                      height={30} />
-                    <span className='language-desc'>Spotify API</span>
-                  </div>
-                  <div className='skill-section__languages-group'>
-                    <Image
-                      src="/colored-logo/weather.png"
-                      alt="Draft.js Logo"
-                      width={60}
-                      height={30} />
-                    <span className='language-desc'>Weather API</span>
-                  </div>
+
                 </div>
               </div>
               <div className='modal-body__source-code'>
-                <Link href="https://github.com/MoMoZin/MoJo" legacyBehavior>
+                <Link href="https://github.com/MoMoZin/wikimap" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
                     <span>View Source Code</span>
