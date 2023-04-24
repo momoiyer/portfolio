@@ -85,9 +85,7 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-
-              <img src="/projects/tweeter/tweeter.png" alt="tweeter" />
-
+              <img src="/projects/tweeter/tweeter.png" alt="Tweeter" />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for full portfolio</button>
               </div>
@@ -95,16 +93,9 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
-
+              <img src="/projects/moshify/moshify.png" alt="Moshify" />
               <div className="carousel-image-description" >
-                <div>
-                  <h2>Moshify</h2>
-                  <p>Front End Webiste Template for Business</p>
-                  <p>Jan 2022</p>
-                </div>
-                <button className='carousel-item__button'>Click for full portfolio</button>
+                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for full portfolio</button>
               </div>
             </div>
 
@@ -430,7 +421,7 @@ const Project = () => {
       </div>
 
 
-      {/* <!-- WikiMap Modal --> */}
+      {/* <!-- Tweeter Modal --> */}
       <div className="modal fade" id="project4Details" tabindex="-1" aria-labelledby="project4DetailsLabel" aria-hidden="true">
         <div className="modal-dialog">
           <div className="modal-content">
@@ -496,6 +487,60 @@ const Project = () => {
 
               <div className='modal-body__source-code'>
                 <Link href="https://github.com/MoMoZin/tweeter-mo" legacyBehavior>
+                  <a target="_blank" className='modal-body__source-code___git'>
+                    <i className="fa-brands fa-github fa-lg"></i>
+                    <span>View Source Code</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* <!-- Moshify Modal --> */}
+      <div className="modal fade" id="project5Details" tabindex="-1" aria-labelledby="project5DetailsLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h2 className="modal-title" id="project5DetailsLabel">Project Details</h2>
+              <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <p className='modal-body__desc'>A responsive website for ecommence business with advanced CSS styling</p>
+              <div className='modal-body__tech-stack'>
+                <p>Tech Stack: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/js.svg"
+                      alt="Javascript Logo"
+                      width={50}
+                      height={30} />
+                    <span className='language-desc'>Javascript</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/html5.png"
+                      alt="html5 Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>HTML5</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/css3.png"
+                      alt="CSS3 Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>CSS3</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className='modal-body__source-code'>
+                <Link href="https://github.com/MoMoZin/moshify" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
                     <span>View Source Code</span>
