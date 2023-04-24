@@ -372,7 +372,8 @@ p {
   transition: opacity 0s 0s;
 }
 
-#project1Details {
+#project1Details,
+#project2Details {
   margin-top: 10vh !important;
 }
 
