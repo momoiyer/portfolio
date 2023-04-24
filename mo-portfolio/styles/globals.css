@@ -321,6 +321,21 @@ p {
   width: 5rem;
 }
 
+.blog-link {
+  background-color: #323012;
+  border: 0;
+  padding: .5rem;
+  border-radius: .3rem;
+  font-size: 1rem;
+  color: #f9f3e5;
+  width: 6.7rem;
+}
+
+.blog-link:hover {
+  background-color: #f9f3e5;
+  color: #323012;
+}
+
 .carousel-indicators>button {
   background-color: #f9f3e5 !important;
 }
@@ -333,7 +348,7 @@ p {
   transition: transform 0s ease-in-out;
 }
 
-.carousel-item>img {
+.project-carousel-img {
   border-radius: .5rem;
   margin-bottom: 2rem;
   height: 40rem;

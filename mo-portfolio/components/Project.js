@@ -52,7 +52,7 @@ const Project = () => {
           <div className="carousel-inner ">
             {/* <!-- Single item --> */}
             <div className="carousel-item active" >
-              <img src="/projects/mojo/mojo.png" alt="Sunset Over the City" />
+              <img className='project-carousel-img' src="/projects/mojo/mojo.png" alt="Sunset Over the City" />
 
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">Click for full portfolio</button>
@@ -61,7 +61,7 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-              <img src="/projects/wikimap/wikimap.png" alt="Wikimap" />
+              <img className='project-carousel-img' src="/projects/wikimap/wikimap.png" alt="Wikimap" />
 
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">Click for full portfolio</button>
@@ -71,7 +71,7 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item">
-              <img src="/projects/scheduler/scheduler.png" alt="Scheduler" />
+              <img className='project-carousel-img' src="/projects/scheduler/scheduler.png" alt="Scheduler" />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">Click for full portfolio</button>
               </div>
@@ -79,7 +79,7 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-              <img src="/projects/tweeter/tweeter.png" alt="Tweeter" />
+              <img className='project-carousel-img' src="/projects/tweeter/tweeter.png" alt="Tweeter" />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for full portfolio</button>
               </div>
@@ -87,7 +87,7 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-              <img src="/projects/moshify/moshify.png" alt="Moshify" />
+              <img className='project-carousel-img' src="/projects/moshify/moshify.png" alt="Moshify" />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for full portfolio</button>
               </div>

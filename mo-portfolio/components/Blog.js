@@ -27,12 +27,6 @@ const Blog = () => {
               data-mdb-slide-to="1"
               aria-label="Slide 2"
             ></button>
-            <button
-              type="button"
-              data-mdb-target="#blog-carousel"
-              data-mdb-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
           </div>
 
           {/* <!-- Inner --> */}
@@ -43,12 +37,12 @@ const Blog = () => {
                 src="/blog/ORM.webp"
                 alt="blog post picture"
                 width={500}
-                height={250} />
+                height={300} />
 
               <div className="carousel-image-description" >
                 <div>
-                  <h3>1 Popular ORMs (Object-relational Mapping) in JavaScript</h3>
-                  <a href='https://medium.com/@khinmomozin/popular-orms-object-relational-mapping-in-javascript-1391ed13d326'>READ MORE</a>
+                  <h3>Popular ORMs (Object-relational Mapping) in JavaScript</h3>
+                  <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/popular-orms-object-relational-mapping-in-javascript-1391ed13d326'>READ MORE</a>
                 </div>
               </div>
             </div>
@@ -58,30 +52,13 @@ const Blog = () => {
               <Image
                 src="/blog/blog-api.jpg"
                 alt="blog post picture"
-                width={450}
-                height={250} />
+                width={500}
+                height={300} />
 
               <div className="carousel-image-description" >
                 <div>
                   <h3>Creating a Simple RESTful API with Node.js and Express: A Step-by-Step Guide.</h3>
-                  <a href='https://medium.com/@khinmomozin/creating-a-simple-restful-api-with-node-js-and-express-a-step-by-step-guide-2339c9359556'>READ MORE</a>
-                </div>
-              </div>
-            </div>
-
-
-            {/* <!-- Single item --> */}
-            <div className="carousel-item carousel-item__blog">
-              <Image
-                src="/blog/ORM.webp"
-                alt="blog post picture"
-                width={500}
-                height={200} />
-
-              <div className="carousel-image-description" >
-                <div>
-                  <h2>3 Popular ORMs (Object-relational Mapping) in JavaScript</h2>
-                  <a>READ MORE</a>
+                  <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/creating-a-simple-restful-api-with-node-js-and-express-a-step-by-step-guide-2339c9359556'>READ MORE</a>
                 </div>
               </div>
             </div>
