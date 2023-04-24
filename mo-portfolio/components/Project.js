@@ -46,12 +46,6 @@ const Project = () => {
               data-mdb-slide-to="4"
               aria-label="Slide 5"
             ></button>
-            <button
-              type="button"
-              data-mdb-target="#project-carousel"
-              data-mdb-slide-to="5"
-              aria-label="Slide 6"
-            ></button>
           </div>
 
           {/* <!-- Inner --> */}
@@ -98,22 +92,6 @@ const Project = () => {
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for full portfolio</button>
               </div>
             </div>
-
-            {/* <!-- Single item --> */}
-            <div className="carousel-item" >
-
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh" />
-
-              <div className="carousel-image-description" >
-                <div>
-                  <h2>Phenix Movies</h2>
-                  <p>Online Movie Rental Web App</p>
-                  <p>April 2022</p>
-                </div>
-                <button className='carousel-item__button'>Click for full portfolio</button>
-              </div>
-            </div>
-
           </div>
           {/* <!-- Inner -->
 
