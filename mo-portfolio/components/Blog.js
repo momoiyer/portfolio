@@ -10,7 +10,7 @@ const Blog = () => {
 
       <div className="project-section__carousel" data-aos="flip-left">
         {/* <!-- Carousel wrapper --> */}
-        <div id="blog-carousel" className="carousel slide carousel-fade" data-mdb-ride="carousel">
+        <div id="blog-carousel" className="carousel slide carousel-fade">
           {/* <!-- Indicators --> */}
           <div className="carousel-indicators">
             <button
@@ -31,9 +31,10 @@ const Blog = () => {
 
           {/* <!-- Inner --> */}
           <div className="carousel-inner ">
-            <div className="carousel-item carousel-item__blog active" data-mdb-interval="500000">
+            <div className="carousel-item carousel-item__blog active">
 
               <Image
+                className='blog-carousel-img1'
                 src="/blog/ORM.webp"
                 alt="blog post picture"
                 width={600}
@@ -48,8 +49,9 @@ const Blog = () => {
             </div>
 
             {/* <!-- Single item --> */}
-            <div className="carousel-item carousel-item__blog" >{/* <div className="carousel-caption d-none d-md-block"> */}
+            <div className="carousel-item carousel-item__blog" >
               <Image
+                className='blog-carousel-img2'
                 src="/blog/blog-api.jpg"
                 alt="blog post picture"
                 width={400}
