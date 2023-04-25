@@ -275,6 +275,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .project-section__title>p {
@@ -578,12 +579,15 @@ textarea {
     align-items: start;
   }
 
+  /* common section item display */
   .intro-section__desc,
   .intro-section__tagline,
-  .about-section__title {
+  .about-section__title,
+  .project-section__carousel {
     width: 100%;
   }
 
+  /* about section */
   .about-section__item-left {
     padding-left: 5rem;
   }
@@ -594,5 +598,11 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* project section */
+  .project-carousel-img {
+    height: 25rem;
+    width: 25rem;
   }
 }
