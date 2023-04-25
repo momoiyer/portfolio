@@ -161,7 +161,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 
 .about-section__item {
@@ -579,5 +578,17 @@ textarea {
   .intro-section__tagline,
   .about-section__title {
     width: 100%;
+  }
+
+  .about-section__item-left {
+    padding-left: 5rem;
+  }
+
+  .about-section__item-background {
+    width: 30rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
