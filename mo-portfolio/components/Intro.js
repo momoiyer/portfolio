@@ -6,7 +6,7 @@ const Intro = () => {
 
     <section className="intro-section dark-background" id='intro' >
       <div className='intro-section__desc' data-aos="zoom-out">
-        <p>Hello! My name is</p>
+        <p><span className="hello">Hello! </span>My name is</p>
         <h1 className='name'>Mo Mo.</h1>
       </div >
       <div className='intro-section__image' data-aos="flip-right">
@@ -20,25 +20,25 @@ const Intro = () => {
         <div className='intro-section__social'>
           <Link href="https://www.linkedin.com/in/khinmomozin/" legacyBehavior>
             <a target="_blank" className='intro-section__social_item'>
-              <i className="fa-brands fa-linkedin fa-lg"></i>
+              <i className="fa-brands fa-linkedin fa-xl"></i>
             </a>
           </Link>
 
           <Link href="https://github.com/MoMoZin" legacyBehavior>
             <a target="_blank" className='intro-section__social_item'>
-              <i className="fa-brands fa-github fa-lg"></i>
+              <i className="fa-brands fa-github fa-xl"></i>
             </a>
           </Link>
 
           <Link href="https://medium.com/@khinmomozin" legacyBehavior>
             <a target="_blank" className='intro-section__social_item'>
-              <i className="fa-solid fa-blog fa-lg"></i>
+              <i className="fa-solid fa-blog fa-xl"></i>
             </a>
           </Link>
 
           <Link href="mailto:khinmomozin@gmail.com" legacyBehavior>
             <a target="_blank" className='intro-section__social_item'>
-              <i className="fa-solid fa-envelope fa-lg"></i>
+              <i className="fa-solid fa-envelope fa-xl"></i>
             </a>
           </Link>
         </div>

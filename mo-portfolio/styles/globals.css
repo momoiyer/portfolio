@@ -106,6 +106,14 @@ p {
   justify-content: center;
 }
 
+.intro-section__desc>p {
+  font-size: 2rem;
+}
+
+/* .hello {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
 .name {
   font-weight: 600;
   font-size: 4rem;
@@ -479,6 +487,11 @@ p {
 .contact-section__title {
   display: flex;
   flex-direction: column;
+  /* 
+  background-image: url("/contact-bg.png");
+  background-size: 100% 100%;
+  width: 48rem;
+  height: 8.7rem; */
 
   width: 30%;
   padding: 1rem;
@@ -488,6 +501,10 @@ p {
   width: 40%;
   padding: 1rem;
   font-size: 1.2rem !important;
+}
+
+.contact-section>form>h3 {
+  font-family: 'Gotu', sans-serif;
 }
 
 input,

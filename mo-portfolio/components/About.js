@@ -5,7 +5,7 @@ const About = () => {
     <section className="about-section light-background" id="about" >
       <div className='about-section__title' data-aos="zoom-in">
         <h1>My Journey</h1>
-        <p>Summary of my life, education and professional experience</p>
+        <p>Summary of my life, education and professional experiences</p>
       </div>
 
       <div className='about-section__item_list'>
@@ -21,7 +21,7 @@ const About = () => {
             {/* <p>1993-2009</p> */}
             <div className='about-section__item-desc'>
               {/* <h3>1993-2009</h3> */}
-              <p>Born in Myanmar and been dreaming of migrating to Canada after seeing beautiful scenery in the movie 'X-Men Origins: Wolverine'.</p>
+              <p>I was born in Myanmar and have dreamed of migrating to Canada after seeing beauty of the Canadian Rockies in the movie 'X-Men Origins: Wolverine'.</p>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const About = () => {
             </div>
             {/* <p>2017-2020</p> */}
             <div className='about-section__item-desc'>
-              <p>Started missing coding and went back to school to get Graduate Diploma in Systems Analysis. Got the first developer job (Full Stack) that brought so much exciement every single day for 3 years!</p>
+              <p>Started missing coding and went back to school to get Graduate Diploma in Systems Analysis. Got my first developer job (Full Stack) that brought so much exciement every single day for almost 3 years!</p>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const About = () => {
             </div>
             {/* <p>2013-present</p> */}
             <div className='about-section__item-desc'>
-              <p>After 3 years, realized that my true passion will always be programming and joined bootcamp to modernize my tech stack. Currently volunteering at Calgary startup as a full stack developer and lead of the front-end team.</p>
+              <p>After 2 years, realized my true passion will always be programming and joined bootcamp to modernize my tech stack. Currently volunteering at a Calgary startup as a full-stack developer and lead of the fron-end team.</p>
             </div>
           </div>
         </div>

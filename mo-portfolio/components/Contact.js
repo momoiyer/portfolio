@@ -1,6 +1,7 @@
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import Image from 'next/image';
 
 const Contact = () => {
 
@@ -33,10 +34,17 @@ const Contact = () => {
   return (
     <section className="contact-section light-background" data-aos="zoom-in" id='contact'>
       <div className="contact-section__title">
-        <h1>Reach out!</h1>
-        <p>Feel free to drop a message or arrange a coffee chat with me.</p>
+
+        <Image
+          src="/contact.png"
+          alt="Picture of me"
+          width={450}
+          height={570}
+          className="d-block w-100 h-100" />
+        {/* <h1>Reach out!</h1> */}
       </div>
       <Form onSubmit={handleOnSubmit}>
+        <h3>Feel free to drop a message or arrange a coffee chat</h3>
         <Form.Field
           id='form-input-control-last-name'
           control={Input}
