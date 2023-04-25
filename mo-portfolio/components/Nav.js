@@ -15,9 +15,9 @@ const Nav = () => {
           setNavActive(!navActive);
         }}
       >
-        <div class="line line-1"></div>
-        <div class="line line-2"></div>
-        <div class="line line-3"></div>
+        <div className="line line-1"></div>
+        <div className="line line-2"></div>
+        <div className="line line-3"></div>
       </div>
       <div
         className={`nav-bar__menu-list ${navActive ? "active" : ""
