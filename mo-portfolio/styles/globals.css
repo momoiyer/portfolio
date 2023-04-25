@@ -230,34 +230,6 @@ p {
   padding-left: 1rem;
 }
 
-/* .dash-1 {
-  position: absolute;
-  top: 7.5rem;
-  left: 50rem;
-  transform: rotate(-15deg);
-}
-
-.dash-2 {
-  position: absolute;
-  top: 13.5rem;
-  left: 45rem;
-  transform: rotate(138deg);
-}
-
-.dash-3 {
-  position: absolute;
-  top: 22rem;
-  left: 52rem;
-  transform: rotate(215deg);
-}
-
-.dash-4 {
-  position: absolute;
-  top: 42rem;
-  left: 51rem;
-  transform: rotate(-35deg);
-} */
-
 /* Skill section */
 .skill-section {
   display: flex;
@@ -274,7 +246,7 @@ p {
 }
 
 .skill-section__languages {
-  padding: 1.5rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -319,6 +291,10 @@ p {
 #project-carousel>button {
   color: #323012 !important;
   width: 5rem;
+}
+
+.blog-title {
+  font-size: 2.5rem;
 }
 
 .blog-link {

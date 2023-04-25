@@ -36,12 +36,12 @@ const Blog = () => {
               <Image
                 src="/blog/ORM.webp"
                 alt="blog post picture"
-                width={500}
+                width={600}
                 height={300} />
 
               <div className="carousel-image-description" >
                 <div>
-                  <h3>Popular ORMs (Object-relational Mapping) in JavaScript</h3>
+                  <p className='blog-title'>Popular ORMs (Object-relational Mapping) in JavaScript</p>
                   <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/popular-orms-object-relational-mapping-in-javascript-1391ed13d326'>READ MORE</a>
                 </div>
               </div>
@@ -52,12 +52,12 @@ const Blog = () => {
               <Image
                 src="/blog/blog-api.jpg"
                 alt="blog post picture"
-                width={500}
+                width={400}
                 height={300} />
 
               <div className="carousel-image-description" >
                 <div>
-                  <h3>Creating a Simple RESTful API with Node.js and Express: A Step-by-Step Guide.</h3>
+                  <p className='blog-title'>Creating a Simple RESTful API with Node.js and Express: A Step-by-Step Guide.</p>
                   <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/creating-a-simple-restful-api-with-node-js-and-express-a-step-by-step-guide-2339c9359556'>READ MORE</a>
                 </div>
               </div>

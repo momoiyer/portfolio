@@ -207,7 +207,7 @@ const Project = () => {
                 <Link href="https://github.com/MoMoZin/MoJo" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
-                    <span>View Source Code</span>
+                    <span>View Source code and Screenshots</span>
                   </a>
                 </Link>
               </div>
@@ -306,7 +306,7 @@ const Project = () => {
                 <Link href="https://github.com/MoMoZin/wikimap" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
-                    <span>View Source Code</span>
+                    <span>View Source code and Screenshots</span>
                   </a>
                 </Link>
               </div>
@@ -389,7 +389,7 @@ const Project = () => {
                 <Link href="https://github.com/MoMoZin/scheduler" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
-                    <span>View Source Code</span>
+                    <span>View Source code and Screenshots</span>
                   </a>
                 </Link>
               </div>
@@ -467,7 +467,7 @@ const Project = () => {
                 <Link href="https://github.com/MoMoZin/tweeter-mo" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
-                    <span>View Source Code</span>
+                    <span>View Source code and Screenshots</span>
                   </a>
                 </Link>
               </div>
@@ -521,7 +521,7 @@ const Project = () => {
                 <Link href="https://github.com/MoMoZin/moshify" legacyBehavior>
                   <a target="_blank" className='modal-body__source-code___git'>
                     <i className="fa-brands fa-github fa-lg"></i>
-                    <span>View Source Code</span>
+                    <span>View Source code and Screenshots</span>
                   </a>
                 </Link>
               </div>
