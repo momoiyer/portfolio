@@ -527,6 +527,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   background-color: #000000;
   color: #f9f3e5;
 }
@@ -537,6 +538,7 @@ textarea {
   width: 100%;
   justify-content: space-between;
   padding: 0 3rem;
+  flex-wrap: wrap;
 }
 
 .footer-section__upper___tagline {
@@ -591,8 +593,16 @@ textarea {
   .about-section__title,
   .project-section__carousel,
   .skill-section__title,
-  .contact-section__title {
+  .contact-section__title,
+  .footer-section__upper>div:nth-child(1),
+  .footer-section>div:nth-child(2) {
     width: 100%;
+  }
+
+  .blog-section,
+  .project-section,
+  .contact-section {
+    align-content: center;
   }
 
   /* about section */
@@ -626,11 +636,6 @@ textarea {
   }
 
   /* blog section */
-  .blog-section,
-  .project-section,
-  .contact-section {
-    align-content: center;
-  }
 
   .blog-carousel-img1 {
     height: 15rem;
