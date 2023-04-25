@@ -240,9 +240,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .skill-section__title {
+  display: flex;
+  flex-direction: column;
   width: 20%;
 }
 
@@ -583,13 +586,18 @@ textarea {
   .intro-section__desc,
   .intro-section__tagline,
   .about-section__title,
-  .project-section__carousel {
+  .project-section__carousel,
+  .skill-section__title {
     width: 100%;
   }
 
   /* about section */
   .about-section__item-left {
     padding-left: 5rem;
+  }
+
+  .about-section__title {
+    padding-bottom: 2rem;
   }
 
   .about-section__item-background {
@@ -604,5 +612,11 @@ textarea {
   .project-carousel-img {
     height: 25rem;
     width: 25rem;
+  }
+
+  /* Skill section */
+  .skill-section__title {
+    padding-bottom: 2rem;
+    align-items: center;
   }
 }
