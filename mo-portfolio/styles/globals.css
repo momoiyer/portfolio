@@ -153,8 +153,6 @@ p {
   width: 25%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .about-section__title>p {
@@ -471,9 +469,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .contact-section__title {
+  display: flex;
+  flex-direction: column;
+
   width: 30%;
   padding: 1rem;
 }
@@ -588,7 +590,8 @@ textarea {
   .intro-section__tagline,
   .about-section__title,
   .project-section__carousel,
-  .skill-section__title {
+  .skill-section__title,
+  .contact-section__title {
     width: 100%;
   }
 
@@ -599,6 +602,7 @@ textarea {
 
   .about-section__title {
     padding-bottom: 2rem;
+    align-items: center;
   }
 
   .about-section__item-background {
@@ -623,7 +627,8 @@ textarea {
 
   /* blog section */
   .blog-section,
-  .project-section {
+  .project-section,
+  .contact-section {
     align-content: center;
   }
 
@@ -640,5 +645,14 @@ textarea {
   .blog-title {
     font-size: 1.5rem;
     padding-bottom: 1rem;
+  }
+
+  /* contact section */
+  .contact-section__title {
+    align-items: center;
+  }
+
+  .contact-section>form {
+    width: 100%;
   }
 }
