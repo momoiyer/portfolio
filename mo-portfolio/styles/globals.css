@@ -259,7 +259,7 @@ p {
 }
 
 .skill-section__languages-group {
-  padding-left: 1.5rem;
+  padding-left: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -580,7 +580,30 @@ textarea {
   color: #69663a;
 }
 
-@media only screen and (max-width: 600px) {
+/* small laptop screen */
+@media only screen and (max-width:1025px) and (min-width: 771px) {
+
+  .about-section,
+  .intro-section {
+    flex-wrap: nowrap;
+  }
+
+  .about-section__item-left {
+    padding: 0;
+  }
+
+  .about-section__title {
+    width: 100%
+  }
+}
+
+/* tablet and mobile */
+@media only screen and (max-width: 770px) {
+
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
 
   .nav-bar>ul {
     flex-direction: column;
@@ -601,32 +624,43 @@ textarea {
 
   .blog-section,
   .project-section,
-  .contact-section {
+  .contact-section,
+  .about-section {
     align-content: center;
   }
 
   /* about section */
+
   .about-section__item-left {
-    padding-left: 5rem;
+    padding: 0;
   }
 
   .about-section__title {
     padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
   .about-section__item-background {
-    width: 30rem;
-    height: 15rem;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   /* project section */
   .project-carousel-img {
     height: 25rem;
     width: 25rem;
+  }
+
+  .project-section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* Skill section */
@@ -636,7 +670,6 @@ textarea {
   }
 
   /* blog section */
-
   .blog-carousel-img1 {
     height: 15rem;
     width: 25rem;
@@ -652,8 +685,16 @@ textarea {
     padding-bottom: 1rem;
   }
 
+  .blog-section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   /* contact section */
   .contact-section__title {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
