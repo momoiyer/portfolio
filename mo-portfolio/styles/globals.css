@@ -358,6 +358,7 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .project-section__title>p {
@@ -518,6 +519,7 @@ header {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .blog-title {
