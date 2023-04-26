@@ -46,7 +46,7 @@ const Intro = () => {
       </div>
       {/* tagline intro section */}
       <div className='intro-section__tagline' data-aos="zoom-out">
-        <p> I'm a software engineer who loves to turn problems into opportunities with technology!</p>
+        <p>{"I'm a software engineer who loves to turn problems into opportunities with technology!"}</p>
       </div>
     </section >
   );

@@ -22,7 +22,7 @@ const About = () => {
                 height={65} />
             </div>
             <div className='about-section__item-desc'>
-              <p>I was born in Myanmar and have dreamed of migrating to Canada after seeing beauty of the Canadian Rockies in the movie 'X-Men Origins: Wolverine'.</p>
+              <p>{"I was born in Myanmar and have dreamed of migrating to Canada after seeing beauty of the Canadian Rockies in the movie 'X-Men Origins: Wolverine'."}</p>
             </div>
           </div>
         </div>

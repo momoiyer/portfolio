@@ -6,7 +6,7 @@ const Project = () => {
     <section className="project-section  dark-background" id="projects">
       {/* title section */}
       <div className='project-section__title' data-aos="fade-right">
-        <p>WHAT I'VE DONE SO FAR</p>
+        <p>{"WHAT I'VE DONE SO FAR"}</p>
         <h1>Portfolio</h1>
       </div>
 
@@ -54,7 +54,12 @@ const Project = () => {
           <div className="carousel-inner ">
             {/* <!-- Single item --> */}
             <div className="carousel-item active" >
-              <img className='project-carousel-img' src="/projects/mojo/mojo.png" alt="Sunset Over the City" />
+              <Image
+                className='project-carousel-img'
+                src="/projects/mojo/mojo.png"
+                alt="mojo project"
+                width={400}
+                height={400} />
 
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">Click for full portfolio</button>
@@ -63,7 +68,12 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-              <img className='project-carousel-img' src="/projects/wikimap/wikimap.png" alt="Wikimap" />
+              <Image
+                className='project-carousel-img'
+                src="/projects/wikimap/wikimap.png"
+                alt="Wikimap project"
+                width={400}
+                height={400} />
 
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">Click for full portfolio</button>
@@ -73,7 +83,12 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item">
-              <img className='project-carousel-img' src="/projects/scheduler/scheduler.png" alt="Scheduler" />
+              <Image
+                className='project-carousel-img'
+                src="/projects/scheduler/scheduler.png"
+                alt="Scheduler project"
+                width={400}
+                height={400} />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">Click for full portfolio</button>
               </div>
@@ -81,7 +96,12 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-              <img className='project-carousel-img' src="/projects/tweeter/tweeter.png" alt="Tweeter" />
+              <Image
+                className='project-carousel-img'
+                src="/projects/tweeter/tweeter.png"
+                alt="Tweeter project"
+                width={400}
+                height={400} />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for full portfolio</button>
               </div>
@@ -89,7 +109,12 @@ const Project = () => {
 
             {/* <!-- Single item --> */}
             <div className="carousel-item" >
-              <img className='project-carousel-img' src="/projects/moshify/moshify.png" alt="Moshify" />
+              <Image
+                className='project-carousel-img'
+                src="/projects/moshify/moshify.png"
+                alt="Moshify project"
+                width={400}
+                height={400} />
               <div className="carousel-image-description" >
                 <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for full portfolio</button>
               </div>
@@ -228,7 +253,7 @@ const Project = () => {
               <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <p className='modal-body__desc'>A responsive web app that allows users to collaboratively create maps which list multiple "points".</p>
+              <p className='modal-body__desc'>A responsive web app that allows users to collaboratively create maps which list multiple points.</p>
               <div className='modal-body__tech-stack'>
                 <p>Tech Stack: </p>
                 <div>
