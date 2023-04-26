@@ -1,6 +1,7 @@
 :root {
   padding: 0 !important;
   margin: 0 !important;
+  width: 100vw !important;
 }
 
 body {
@@ -27,6 +28,12 @@ p {
 .main-body {
   margin-top: 10vh;
 }
+
+/* #__next,
+nav,
+header {
+  width: 100vw;
+} */
 
 /* Nav Bar Style */
 .nav-bar {
@@ -492,8 +499,8 @@ p {
   font-size: 1.2rem !important;
 }
 
-.contact-section>form>h3 {
-  font-family: 'Gotu', sans-serif;
+.contact-section>form>p {
+  padding-bottom: 1rem;
 }
 
 input,

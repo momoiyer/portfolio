@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
       {/* coontact form */}
       <Form onSubmit={handleOnSubmit}>
-        <h3>Feel free to drop a message or arrange a coffee chat</h3>
+        <p>Feel free to drop a message or arrange a coffee chat!</p>
         <Form.Field
           id='form-input-control-last-name'
           control={Input}
