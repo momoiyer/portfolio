@@ -1,8 +1,8 @@
 :root {
   padding: 0 !important;
   margin: 0 !important;
-  width: 100vw !important;
 }
+
 
 body {
   background-color: #f9f3e5 !important;
@@ -754,8 +754,8 @@ textarea {
 
   /* project section */
   .project-carousel-img {
-    height: 25rem;
-    width: 25rem;
+    height: 17rem;
+    width: 17rem;
   }
 
   .project-section__title {
@@ -772,13 +772,13 @@ textarea {
 
   /* blog section */
   .blog-carousel-img1 {
-    height: 15rem;
-    width: 25rem;
+    height: 10rem;
+    width: 17rem;
   }
 
   .blog-carousel-img2 {
     height: 15rem;
-    width: 20rem;
+    width: 17rem;
   }
 
   .blog-title {
