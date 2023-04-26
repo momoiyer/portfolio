@@ -372,7 +372,7 @@ header {
 
 #blog-carousel,
 #project-carousel {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 #blog-carousel>button,
@@ -844,8 +844,8 @@ textarea {
   }
 
   .blog-carousel-img2 {
-    height: 15rem;
-    width: 17rem;
+    height: 10rem;
+    width: 15rem;
   }
 
   .blog-title {

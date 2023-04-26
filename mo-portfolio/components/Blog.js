@@ -71,14 +71,14 @@ const Blog = () => {
           {/* <!-- Inner -->
 
         <!-- Controls --> */}
-          <button className="carousel-control-prev" type="button" data-mdb-target="#blog-carousel" data-mdb-slide="prev">
+          {/* <button className="carousel-control-prev" type="button" data-mdb-target="#blog-carousel" data-mdb-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-mdb-target="#blog-carousel" data-mdb-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
-          </button>
+          </button> */}
         </div>
         {/* <!-- Carousel wrapper --> */}
       </div>
