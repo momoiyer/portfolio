@@ -7,7 +7,8 @@ const Intro = () => {
       {/* name intro section */}
       <div className='intro-section__desc' data-aos="zoom-out">
         <p>Hello! My name is</p>
-        <h1 className='name'>Mo Mo.</h1>
+        <h1 className='name'><span>M</span><span>o</span><span> M</span><span>o</span></h1>
+        <p className='intro-section__desc__tagline'>{"I'm a software engineer who loves to turn problems into opportunities with technology!"}</p>
       </div >
       {/* image intro section with social icons */}
       <div className='intro-section__image' data-aos="flip-right">
@@ -43,10 +44,6 @@ const Intro = () => {
             </a>
           </Link>
         </div>
-      </div>
-      {/* tagline intro section */}
-      <div className='intro-section__tagline' data-aos="zoom-out">
-        <p>{"I'm a software engineer who loves to turn problems into opportunities with technology!"}</p>
       </div>
     </section >
   );
