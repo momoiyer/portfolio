@@ -110,10 +110,6 @@ p {
   font-size: 2rem;
 }
 
-/* .hello {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} */
-
 .name {
   font-weight: 600;
   font-size: 4rem;
@@ -405,7 +401,6 @@ p {
   padding: 1rem;
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   flex-wrap: wrap;
 }
 
@@ -487,12 +482,6 @@ p {
 .contact-section__title {
   display: flex;
   flex-direction: column;
-  /* 
-  background-image: url("/contact-bg.png");
-  background-size: 100% 100%;
-  width: 48rem;
-  height: 8.7rem; */
-
   width: 30%;
   padding: 1rem;
 }

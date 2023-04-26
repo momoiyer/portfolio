@@ -4,12 +4,12 @@ import Swal from 'sweetalert2';
 import Image from 'next/image';
 
 const Contact = () => {
-
-
+  //mail service setup
   const SERVICE_ID = "service_z87owkf";
   const TEMPLATE_ID = "template_8tedc7j";
   const USER_ID = "pmvdggxDNa_KLbrij";
 
+  //send out mail on submit
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
@@ -30,19 +30,18 @@ const Contact = () => {
     e.target.reset();
   };
 
-
   return (
     <section className="contact-section light-background" data-aos="zoom-in" id='contact'>
+      {/* contact title section with image */}
       <div className="contact-section__title">
-
         <Image
           src="/contact.png"
           alt="Picture of me"
           width={450}
           height={570}
           className="d-block w-100 h-100" />
-        {/* <h1>Reach out!</h1> */}
       </div>
+      {/* coontact form */}
       <Form onSubmit={handleOnSubmit}>
         <h3>Feel free to drop a message or arrange a coffee chat</h3>
         <Form.Field

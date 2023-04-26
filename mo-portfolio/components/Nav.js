@@ -3,11 +3,14 @@ import React, { useState } from "react";
 
 const Nav = () => {
 
+  // responsive menu indicator
   const [navActive, setNavActive] = useState(false);
 
   return (
     <nav className='nav-bar'>
+      {/* logo */}
       <span><Link href={'#intro'} className='nav-bar__name-logo'>Khin Mo Mo Zin</Link></span>
+      {/* responsive menu */}
       <div
         className={`nav-bar__menu-line ${navActive ? "active" : ""
           }`}
@@ -19,10 +22,8 @@ const Nav = () => {
         <div className="line line-2"></div>
         <div className="line line-3"></div>
       </div>
-      <div
-        className={`nav-bar__menu-list ${navActive ? "active" : ""
-          }`}
-      >
+      {/* menu items */}
+      <div className={`nav-bar__menu-list ${navActive ? "active" : ""}`}>
         <ul>
           <li><Link
             className='nav-bar__item'
@@ -51,7 +52,6 @@ const Nav = () => {
             target="_blank" href='https://flowcv.com/resume/gfw7e2wn1w'>resume</a></li>
         </ul>
       </div>
-
     </nav>
   );
 };

@@ -3,12 +3,13 @@ import Link from 'next/link';
 
 const Intro = () => {
   return (
-
     <section className="intro-section dark-background" id='intro' >
+      {/* name intro section */}
       <div className='intro-section__desc' data-aos="zoom-out">
-        <p><span className="hello">Hello! </span>My name is</p>
+        <p>Hello! My name is</p>
         <h1 className='name'>Mo Mo.</h1>
       </div >
+      {/* image intro section with social icons */}
       <div className='intro-section__image' data-aos="flip-right">
         <Image
           src="/mo-portfolio.jpg"
@@ -43,6 +44,7 @@ const Intro = () => {
           </Link>
         </div>
       </div>
+      {/* tagline intro section */}
       <div className='intro-section__tagline' data-aos="zoom-out">
         <p> I'm a software engineer who loves to turn problems into opportunities with technology!</p>
       </div>

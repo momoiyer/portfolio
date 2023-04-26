@@ -3,11 +3,13 @@ import Image from 'next/image';
 const Blog = () => {
   return (
     <section className="blog-section  dark-background" data-aos="fade-right" id='blogs'>
+      {/* title section */}
       <div className='blog-section__title' data-aos="fade-right">
         <p>WHAT I WROTE</p>
         <h1>Blog</h1>
       </div>
 
+      {/* blog carousel */}
       <div className="project-section__carousel" data-aos="flip-left">
         {/* <!-- Carousel wrapper --> */}
         <div id="blog-carousel" className="carousel slide carousel-fade">

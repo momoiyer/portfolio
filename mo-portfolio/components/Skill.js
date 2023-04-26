@@ -3,13 +3,17 @@ import Image from 'next/image';
 const Skill = () => {
   return (
     <section className="skill-section light-background" id='skills'>
+      {/* title section */}
       <div className='skill-section__title' data-aos="fade-up-right">
         <p>WHAT I CAN DO</p >
         <h1>Skills & Proficiencies</h1>
       </div>
+      {/* detail section */}
       <div data-aos="zoom-in-up">
         <p>Languages</p>
+        {/* language List */}
         <div className='skill-section__languages'>
+          {/* individual item */}
           <div className='skill-section__languages-group'>
             <Image
               src="/skill-logo/js.svg"
@@ -20,19 +24,19 @@ const Skill = () => {
           </div>
           <div className='skill-section__languages-group'>
             <Image
+              src="/skill-logo/ts.svg"
+              alt="Typescript Log"
+              width={30}
+              height={30} />
+            <span className='language-desc'>Typescript</span>
+          </div>
+          <div className='skill-section__languages-group'>
+            <Image
               src="/skill-logo/ruby.svg"
               alt="Ruby Logo"
               width={30}
               height={30} />
             <span className='language-desc'>Ruby</span>
-          </div>
-          <div className='skill-section__languages-group'>
-            <Image
-              src="/skill-logo/css.svg"
-              alt="Css Logo"
-              width={30}
-              height={30} />
-            <span className='language-desc'>CSS</span>
           </div>
           <div className='skill-section__languages-group'>
             <Image
@@ -60,24 +64,34 @@ const Skill = () => {
           </div>
           <div className='skill-section__languages-group'>
             <Image
-              src="/skill-logo/html5.svg"
-              alt="HTML Logo"
-              width={30}
-              height={30} />
-            <span className='language-desc'>HTML</span>
-          </div>
-          <div className='skill-section__languages-group'>
-            <Image
               src="/skill-logo/php.svg"
               alt="PHP Logo"
               width={30}
               height={30} />
             <span className='language-desc'>PHP</span>
           </div>
+          <div className='skill-section__languages-group'>
+            <Image
+              src="/skill-logo/css.svg"
+              alt="Css Logo"
+              width={30}
+              height={30} />
+            <span className='language-desc'>CSS</span>
+          </div>
+          <div className='skill-section__languages-group'>
+            <Image
+              src="/skill-logo/html5.svg"
+              alt="HTML Logo"
+              width={30}
+              height={30} />
+            <span className='language-desc'>HTML</span>
+          </div>
         </div>
 
         <p>Frameworks & Libriries</p>
+        {/* Framework List */}
         <div className='skill-section__languages'>
+          {/* individual item */}
           <div className='skill-section__languages-group'>
             <Image
               src="/skill-logo/react.svg"
@@ -85,6 +99,14 @@ const Skill = () => {
               width={30}
               height={30} />
             <span className='language-desc'>React</span>
+          </div>
+          <div className='skill-section__languages-group'>
+            <Image
+              src="/skill-logo/next.svg"
+              alt="Next.js Logo"
+              width={30}
+              height={30} />
+            <span className='language-desc'>Next.js</span>
           </div>
           <div className='skill-section__languages-group'>
             <Image
@@ -137,7 +159,9 @@ const Skill = () => {
         </div>
 
         <p>Database & Systems</p>
+        {/* Database list */}
         <div className='skill-section__languages'>
+          {/* Individual Item */}
           <div className='skill-section__languages-group'>
             <Image
               src="/skill-logo/mysql.svg"
@@ -197,7 +221,9 @@ const Skill = () => {
         </div>
 
         <p>Testing</p>
+        {/* Testing List */}
         <div className='skill-section__languages'>
+          {/* Individual Item */}
           <div className='skill-section__languages-group'>
             <Image
               src="/skill-logo/mocha.png"
@@ -249,7 +275,9 @@ const Skill = () => {
         </div>
 
         <p>CMS</p>
+        {/* CMS List */}
         <div className='skill-section__languages'>
+          {/* Individual Item */}
           <div className='skill-section__languages-group'>
             <Image
               src="/skill-logo/git.svg"
@@ -266,10 +294,8 @@ const Skill = () => {
               height={30} />
             <span className='language-desc'>SVN</span>
           </div>
-
         </div>
       </div>
-
     </section>
   );
 };

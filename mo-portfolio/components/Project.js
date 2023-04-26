@@ -4,11 +4,13 @@ import Link from 'next/link';
 const Project = () => {
   return (
     <section className="project-section  dark-background" id="projects">
+      {/* title section */}
       <div className='project-section__title' data-aos="fade-right">
         <p>WHAT I'VE DONE SO FAR</p>
         <h1>Portfolio</h1>
       </div>
 
+      {/* project carousel section */}
       <div className="project-section__carousel" data-aos="flip-left">
         {/* <!-- Carousel wrapper --> */}
         <div id="project-carousel" className="carousel slide carousel-fade" >

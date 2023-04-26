@@ -3,13 +3,16 @@ import Image from 'next/image';
 const About = () => {
   return (
     <section className="about-section light-background" id="about" >
+      {/* title section */}
       <div className='about-section__title' data-aos="zoom-in">
         <h1>My Journey</h1>
         <p>Summary of my life, education and professional experiences</p>
       </div>
 
       <div className='about-section__item_list'>
+        {/* journey item list */}
         <div className='about-section__item' data-aos="fade-down">
+          {/* individual item */}
           <div className='about-section__item-background'>
             <div className='about-section__item-image'>
               <Image
@@ -18,9 +21,7 @@ const About = () => {
                 width={65}
                 height={65} />
             </div>
-            {/* <p>1993-2009</p> */}
             <div className='about-section__item-desc'>
-              {/* <h3>1993-2009</h3> */}
               <p>I was born in Myanmar and have dreamed of migrating to Canada after seeing beauty of the Canadian Rockies in the movie 'X-Men Origins: Wolverine'.</p>
             </div>
           </div>
@@ -39,7 +40,6 @@ const About = () => {
                 width={55}
                 height={55} />
             </div>
-            {/* <p>2009-2017</p> */}
             <div className='about-section__item-desc'>
               <p>Migrated to Singapore. Graudated with BSc. in Information System & Software Engineering. Worked at IBM Datacenter supporting & supervising the IT Operation Team for 4 years.</p>
             </div>
@@ -60,7 +60,6 @@ const About = () => {
                 width={55}
                 height={55} />
             </div>
-            {/* <p>2017-2020</p> */}
             <div className='about-section__item-desc'>
               <p>Started missing coding and went back to school to get Graduate Diploma in Systems Analysis. Got my first developer job (Full Stack) that brought so much exciement every single day for almost 3 years!</p>
             </div>
@@ -79,7 +78,6 @@ const About = () => {
               width={55}
               height={55} />
           </div>
-            {/* <p>2020-2023</p> */}
             <div className='about-section__item-desc'>
               <p>Finally migrated to my dream country, Canada! Started exploring the entrepreneur side of me and started an E-commerce business with Amazon. Achieved high customer rating and profit margin.</p>
             </div>
@@ -99,44 +97,12 @@ const About = () => {
                 width={55}
                 height={55} />
             </div>
-            {/* <p>2013-present</p> */}
             <div className='about-section__item-desc'>
               <p>After 2 years, realized my true passion will always be programming and joined bootcamp to modernize my tech stack. Currently volunteering at a Calgary startup as a full-stack developer and lead of the fron-end team.</p>
             </div>
           </div>
         </div>
       </div>
-      {/* 
-      <div className='dash-1' data-aos="fade-down">
-        <Image
-          src="/about-me/dash3.png"
-          alt="start of journey"
-          width={150}
-          height={180} />
-      </div>
-      <div className='dash-2' data-aos="fade-down">
-        <Image
-          src="/about-me/dash2.png"
-          alt="start of journey"
-          width={160}
-          height={160} />
-      </div>
-
-      <div className='dash-3' data-aos="fade-down">
-        <Image
-          src="/about-me/dash1.png"
-          alt="start of journey"
-          width={180}
-          height={200} />
-      </div>
-      <div className='dash-4' data-aos="fade-down">
-        <Image
-          src="/about-me/dash2.png"
-          alt="start of journey"
-          width={160}
-          height={160} />
-      </div> */}
-
     </section >
   );
 };
