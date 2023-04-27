@@ -369,7 +369,7 @@ header {
 }
 
 .skill-section__details>p {
-  background-color: #69663a;
+  background-color: #323012;
   display: flex;
   justify-content: center;
   color: #f9f3e5;
@@ -693,14 +693,21 @@ textarea {
   width: 35%;
 }
 
+.footer-section__upper>div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-section>div:nth-child(2) {
   background-color: #f9f3e530;
   width: 95%;
   height: .1rem;
 }
 
-.footer-section__upper>div>h3 {
+.footer-section__upper__text {
   color: #69663a;
+  padding-bottom: 1rem;
 }
 
 .text-reset:hover {
