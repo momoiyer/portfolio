@@ -414,12 +414,7 @@ header {
 
 #blog-carousel>button,
 #project-carousel>button {
-  color: #323012 !important;
-  /* width: 5rem; */
-}
-
-.carousel-inner {
-  /* width: 70% !important; */
+  color: #f9f3e5 !important;
 }
 
 .carousel-indicators {
@@ -433,7 +428,6 @@ header {
 }
 
 .carousel-item {
-  /* padding: 3rem; */
   display: flex !important;
   flex-direction: column;
   align-items: center;
@@ -443,8 +437,8 @@ header {
 .project-carousel-img {
   border-radius: .5rem;
   margin-bottom: 2rem;
-  height: 40rem;
-  width: 40rem;
+  height: 60%;
+  width: 60%;
 }
 
 .carousel-image-description {
@@ -731,12 +725,8 @@ textarea {
   }
 }
 
-/* tablet and mobile */
+/* tablet */
 @media only screen and (max-width: 767px) {
-  .project-carousel-img {
-    height: 17rem;
-    width: 17rem;
-  }
 
   .blog-carousel-img1 {
     height: 10rem;
@@ -749,6 +739,7 @@ textarea {
   }
 }
 
+/* tablet and mobile */
 @media only screen and (max-width: 770px) {
 
   h1,
@@ -886,8 +877,6 @@ textarea {
   }
 
   /* project section */
-
-
   .project-section__title {
     display: flex;
     flex-direction: column;
@@ -901,7 +890,6 @@ textarea {
   }
 
   /* blog section */
-
   .blog-title {
     font-size: 1.5rem;
     padding-bottom: 1rem;
@@ -911,6 +899,10 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #blog-carousel>button {
+    height: 50% !important;
   }
 
   /* contact section */

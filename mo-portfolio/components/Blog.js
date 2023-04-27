@@ -39,8 +39,8 @@ const Blog = () => {
                 className='blog-carousel-img1'
                 src="/blog/ORM.webp"
                 alt="blog post picture"
-                width={600}
-                height={300} />
+                width={450}
+                height={250} />
 
               <div className="carousel-image-description" >
                 <div>
@@ -56,8 +56,8 @@ const Blog = () => {
                 className='blog-carousel-img2'
                 src="/blog/blog-api.jpg"
                 alt="blog post picture"
-                width={400}
-                height={300} />
+                width={350}
+                height={250} />
 
               <div className="carousel-image-description" >
                 <div>
