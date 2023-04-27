@@ -55,15 +55,12 @@ const Project = () => {
             {/* <!-- Single item --> */}
             <div className="carousel-item active" >
               <Image
-                className='project-carousel-img'
+                className='project-carousel-img w-80'
                 src="/projects/mojo/mojo.png"
                 alt="mojo project"
                 width={400}
                 height={400} />
-
-              <div className="carousel-image-description" >
-                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">Click for full portfolio</button>
-              </div>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">Click for Mojo's full details</button>
             </div>
 
             {/* <!-- Single item --> */}
@@ -74,10 +71,7 @@ const Project = () => {
                 alt="Wikimap project"
                 width={400}
                 height={400} />
-
-              <div className="carousel-image-description" >
-                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">Click for full portfolio</button>
-              </div>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">Click for Wikimap's full details</button>
             </div>
 
 
@@ -89,9 +83,7 @@ const Project = () => {
                 alt="Scheduler project"
                 width={400}
                 height={400} />
-              <div className="carousel-image-description" >
-                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">Click for full portfolio</button>
-              </div>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">Click for Scheduler's full details</button>
             </div>
 
             {/* <!-- Single item --> */}
@@ -102,9 +94,7 @@ const Project = () => {
                 alt="Tweeter project"
                 width={400}
                 height={400} />
-              <div className="carousel-image-description" >
-                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for full portfolio</button>
-              </div>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for Tweeter's full details</button>
             </div>
 
             {/* <!-- Single item --> */}
@@ -115,22 +105,20 @@ const Project = () => {
                 alt="Moshify project"
                 width={400}
                 height={400} />
-              <div className="carousel-image-description" >
-                <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for full portfolio</button>
-              </div>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for Moshify's full details</button>
             </div>
           </div>
           {/* <!-- Inner -->
 
         <!-- Controls --> */}
-          {/* <button className="carousel-control-prev" type="button" data-mdb-target="#project-carousel" data-mdb-slide="prev">
+          <button className="carousel-control-prev" type="button" data-mdb-target="#project-carousel" data-mdb-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-mdb-target="#project-carousel" data-mdb-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
-          </button> */}
+          </button>
         </div>
         {/* <!-- Carousel wrapper --> */}
       </div>

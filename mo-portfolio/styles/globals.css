@@ -123,12 +123,14 @@ header {
   min-height: 100vh;
   color: #000000;
   padding: 2rem;
+  overflow: hidden;
 }
 
 .dark-background {
   min-height: 90vh;
   background-color: #69663a;
   padding: 1rem;
+  overflow: hidden;
 }
 
 /* Intro section */
@@ -413,11 +415,21 @@ header {
 #blog-carousel>button,
 #project-carousel>button {
   color: #323012 !important;
-  width: 5rem;
+  /* width: 5rem; */
+}
+
+.carousel-inner {
+  /* width: 70% !important; */
+}
+
+.carousel-indicators {
+  margin-bottom: -.5rem !important;
 }
 
 .carousel-indicators>button {
   background-color: #f9f3e5 !important;
+  height: .5rem !important;
+  text-indent: 0% !important;
 }
 
 .carousel-item {
@@ -720,6 +732,23 @@ textarea {
 }
 
 /* tablet and mobile */
+@media only screen and (max-width: 767px) {
+  .project-carousel-img {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .blog-carousel-img1 {
+    height: 10rem;
+    width: 17rem;
+  }
+
+  .blog-carousel-img2 {
+    height: 10rem;
+    width: 15rem;
+  }
+}
+
 @media only screen and (max-width: 770px) {
 
   h1,
@@ -857,10 +886,7 @@ textarea {
   }
 
   /* project section */
-  .project-carousel-img {
-    height: 17rem;
-    width: 17rem;
-  }
+
 
   .project-section__title {
     display: flex;
@@ -875,15 +901,6 @@ textarea {
   }
 
   /* blog section */
-  .blog-carousel-img1 {
-    height: 10rem;
-    width: 17rem;
-  }
-
-  .blog-carousel-img2 {
-    height: 10rem;
-    width: 15rem;
-  }
 
   .blog-title {
     font-size: 1.5rem;
