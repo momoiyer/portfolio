@@ -60,7 +60,7 @@ const Project = () => {
                 alt="mojo project"
                 width={400}
                 height={400} />
-              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">Click for Mojo's full details</button>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project1Details">{"Click for Mojo's full details"}</button>
             </div>
 
             {/* <!-- Single item --> */}
@@ -71,7 +71,7 @@ const Project = () => {
                 alt="Wikimap project"
                 width={400}
                 height={400} />
-              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">Click for Wikimap's full details</button>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">{"Click for Wikimap's full details"}</button>
             </div>
 
 
@@ -83,7 +83,7 @@ const Project = () => {
                 alt="Scheduler project"
                 width={400}
                 height={400} />
-              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">Click for Scheduler's full details</button>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project3Details">{"Click for Scheduler's full details"}</button>
             </div>
 
             {/* <!-- Single item --> */}
@@ -94,7 +94,7 @@ const Project = () => {
                 alt="Tweeter project"
                 width={400}
                 height={400} />
-              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">Click for Tweeter's full details</button>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project4Details">{"Click for Tweeter's full details"}</button>
             </div>
 
             {/* <!-- Single item --> */}
@@ -105,7 +105,7 @@ const Project = () => {
                 alt="Moshify project"
                 width={400}
                 height={400} />
-              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">Click for Moshify's full details</button>
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project5Details">{"Click for Moshify's full details"}</button>
             </div>
           </div>
           {/* <!-- Inner -->
