@@ -368,7 +368,7 @@ header {
   padding-bottom: 1rem;
 }
 
-.skill-section>div:nth-child(2)>p {
+.skill-section__details>p {
   background-color: #69663a;
   display: flex;
   justify-content: center;
