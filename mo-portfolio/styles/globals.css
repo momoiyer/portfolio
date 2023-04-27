@@ -628,6 +628,7 @@ input,
 textarea {
   background-color: #69663a !important;
   padding: 2rem !important;
+  color: #f9f3e5 !important;
 }
 
 .contact-section>form>button {
