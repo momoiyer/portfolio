@@ -42,12 +42,9 @@ const Blog = () => {
                 width={450}
                 height={250} />
 
-              <div className="carousel-image-description" >
-                <div>
-                  <p className='blog-title'>Popular ORMs (Object-relational Mapping) in JavaScript</p>
-                  <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/popular-orms-object-relational-mapping-in-javascript-1391ed13d326'>READ MORE</a>
-                </div>
-              </div>
+              <p className='blog-title'>Popular ORMs (Object-relational Mapping) in JavaScript</p>
+              <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/popular-orms-object-relational-mapping-in-javascript-1391ed13d326'>READ MORE</a>
+
             </div>
 
             {/* <!-- Single item --> */}
@@ -59,12 +56,9 @@ const Blog = () => {
                 width={350}
                 height={250} />
 
-              <div className="carousel-image-description" >
-                <div>
-                  <p className='blog-title'>Creating a Simple RESTful API with Node.js and Express: A Step-by-Step Guide.</p>
-                  <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/creating-a-simple-restful-api-with-node-js-and-express-a-step-by-step-guide-2339c9359556'>READ MORE</a>
-                </div>
-              </div>
+              <p className='blog-title'>Creating a Simple RESTful API with Node.js and Express</p>
+              <a className='blog-link' target="_blank" href='https://medium.com/@khinmomozin/creating-a-simple-restful-api-with-node-js-and-express-a-step-by-step-guide-2339c9359556'>READ MORE</a>
+
             </div>
 
           </div>

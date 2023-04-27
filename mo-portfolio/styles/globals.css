@@ -448,8 +448,8 @@ header {
 .project-carousel-img {
   border-radius: .5rem;
   margin-bottom: 2rem;
-  height: 60%;
-  width: 60%;
+  height: 70%;
+  width: 70%;
 }
 
 .carousel-image-description {
@@ -574,7 +574,8 @@ header {
 }
 
 .blog-title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  padding: 3rem 0;
 }
 
 .blog-link {
@@ -585,6 +586,7 @@ header {
   font-size: 1rem;
   color: #f9f3e5;
   width: 6.7rem;
+  margin-bottom: 3rem;
 }
 
 .blog-link:hover {
@@ -592,10 +594,10 @@ header {
   color: #323012;
 }
 
-.carousel-item__blog {
-  align-items: center;
+.blog-carousel-img1,
+.blog-carousel-img2 {
+  border-radius: .5rem;
 }
-
 
 /* Contact Me section */
 .contact-section {
@@ -908,12 +910,6 @@ textarea {
   .skill-section__title {
     padding-bottom: 2rem;
     align-items: center;
-  }
-
-  /* blog section */
-  .blog-title {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
   }
 
   .blog-section__title {
