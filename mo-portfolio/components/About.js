@@ -22,7 +22,7 @@ const About = () => {
                 height={65} />
             </div>
             <div className='about-section__item-desc'>
-              <p>{"I was born in Myanmar and have dreamed of migrating to Canada after seeing beauty of the Canadian Rockies in the movie 'X-Men Origins: Wolverine'."}</p>
+              <p>{"I was born in Myanmar and have dreamed of emigrating to Canada after seeing beauty of the Canadian Rockies in the movie 'X-Men Origins: Wolverine'."}</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const About = () => {
                 height={55} />
             </div>
             <div className='about-section__item-desc'>
-              <p>Migrated to Singapore. Graudated with BSc. in Information System & Software Engineering. Worked at IBM Datacenter supporting & supervising the IT Operation Team for 4 years.</p>
+              <p>Moved to Singapore. Graudated with BSc. in Information System & Software Engineering. Worked at IBM Datacenter supporting & supervising the IT Operation Team for 4 years.</p>
             </div>
 
           </div>
@@ -61,7 +61,7 @@ const About = () => {
                 height={55} />
             </div>
             <div className='about-section__item-desc'>
-              <p>Started missing coding and went back to school to get Graduate Diploma in Systems Analysis. Got my first developer job (Full Stack) that brought so much exciement every single day for almost 3 years!</p>
+              <p>Started missing coding and went back to school to get a Graduate Diploma in Systems Analysis. Got my first developer job (Full Stack) that brought me so much exciement every single day for almost 3 years!</p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const About = () => {
                 height={55} />
             </div>
             <div className='about-section__item-desc'>
-              <p>After 2 years, realized my true passion will always be programming and joined bootcamp to modernize my tech stack. Currently volunteering at a Calgary startup as a full-stack developer and lead of the fron-end team.</p>
+              <p>After 2 years, realized my true passion will always be programming and joined a coding bootcamp to modernize my tech stack. Currently volunteering at a Calgary startup as a full-stack developer and lead of the front-end team.</p>
             </div>
           </div>
         </div>
