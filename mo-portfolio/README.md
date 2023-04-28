@@ -31,7 +31,13 @@ A responsive web app to introduce about myself and showcase my skills and projec
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 # PROJECT OVERVIEW #
-
+![intro](doc/1.intro.jpg)
+![my journey](doc/2.journey.jpg)
+![my portfolio](doc/3.portfolio.jpg)
+![my skills](doc/4.skill.jpg)
+![my blog](doc/5.blog.jpg)
+![contact me](doc/6.contact.jpg)
+![footer](doc/7.footer.jpg)
 
 # PROJECT SETUP #
 
@@ -39,7 +45,6 @@ A responsive web app to introduce about myself and showcase my skills and projec
 ```
 cd portfolio/mo-portfolio
 npm install
-
 ```
 
 ## START DEVELOPMENT SERVER
