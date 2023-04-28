@@ -657,6 +657,10 @@ textarea {
   border-color: #69663a !important;
 }
 
+.swal2-confirm {
+  background-color: #323012 !important;
+}
+
 
 /* Footer section */
 .footer-section {
