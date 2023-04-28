@@ -1,116 +1,63 @@
-<a name="readme-top"></a>
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h2 align="center">Khin Mo Mo Zin : Portfolio Website</h2>
+# 
+# PROJECT TITLE - KHIN MO MO ZIN Portfolio
 
-  <p align="center">
-    <a href=""><strong>» view the live website »</strong></a>
-    <br />
-    <br />
-    <a href="">View Demo</a>
-    ·
-    <a href="">Report Bug</a>
-    ·
-    <a href="">Request Feature</a>
-  </p>
+## PROJECT DESCRIPTION
+
+A responsive web app to introduce about myself and showcase my skills and projects.
+
+
+# TECH STACK #
+
+## Languages, Frameworks & Database ##
+
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+
+## External Libraries ##
+<div style="display: flex; margin-bottom:15px">
+<img src="doc/mdb.jpg" height="28" width=150 alt="mdbootstrap" style="padding-right: 4px">
+<img src="doc/email.jpg" height="28" width=130 alt="mdbootstrap" style="padding-right: 4px">
+<img src="doc/AOS.jpg" height="28" width=190 alt="mdbootstrap" style="padding-right: 4px">
+
 </div>
 
+## Others
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+# PROJECT OVERVIEW #
+![intro](doc/1.intro.jpg)
+![my journey](doc/2.journey.jpg)
+![my portfolio](doc/3.portfolio.jpg)
+![my skills](doc/4.skill.jpg)
+![my blog](doc/5.blog.jpg)
+![contact me](doc/6.contact.jpg)
+![footer](doc/7.footer.jpg)
 
+# PROJECT SETUP #
 
+## INITIAL SETUP
+```
+cd portfolio/mo-portfolio
+npm install
+```
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## START DEVELOPMENT SERVER
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+```
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui, corporis eaque maxime quaerat dolor eum harum. Doloribus odit nihil fugit voluptatum. Tempore atque ullam praesentium nulla maxime, perferendis voluptate?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui, corporis eaque maxime quaerat dolor eum harum. Doloribus odit nihil fugit voluptatum. Tempore atque ullam praesentium nulla maxime, perferendis voluptate?
-
-Lorem ipsum dolor: 
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat qui, corporis eaque maxime quaerat dolor eum harum. Doloribus odit nihil fugit voluptatum. Tempore atque ullam praesentium nulla maxime, perferendis voluptate?
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
 
-### Built With
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-
-### Prerequisites
-
-
-
-### Installation
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE -->
-## Usage
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
