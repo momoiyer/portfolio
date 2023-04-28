@@ -16,8 +16,13 @@ A responsive web app to introduce about myself and showcase my skills and projec
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 
-## API & External Libraries ##
+## External Libraries ##
+<div style="display: flex; margin-bottom:15px">
+<img src="doc/mdb.jpg" height="28" width=150 alt="mdbootstrap" style="padding-right: 4px">
+<img src="doc/email.jpg" height="28" width=130 alt="mdbootstrap" style="padding-right: 4px">
+<img src="doc/AOS.jpg" height="28" width=190 alt="mdbootstrap" style="padding-right: 4px">
 
+</div>
 
 ## Others
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
