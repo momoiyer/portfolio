@@ -48,6 +48,12 @@ const Project = () => {
               data-mdb-slide-to="4"
               aria-label="Slide 5"
             ></button>
+            <button
+              type="button"
+              data-mdb-target="#project-carousel"
+              data-mdb-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
           </div>
 
           {/* <!-- Inner --> */}
@@ -74,6 +80,16 @@ const Project = () => {
               <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#project2Details">{"Click for Wikimap's full details"}</button>
             </div>
 
+            {/* <!-- Single item --> */}
+            <div className="carousel-item">
+              <Image
+                className='project-carousel-img'
+                src="/projects/jungle/jungle.png"
+                alt="Jungle project"
+                width={400}
+                height={400} />
+              <button className='carousel-item__button' data-mdb-toggle="modal" data-mdb-target="#projectJungleDetails">{"Click for Jungle's full details"}</button>
+            </div>
 
             {/* <!-- Single item --> */}
             <div className="carousel-item">
@@ -330,6 +346,86 @@ const Project = () => {
         </div>
       </div>
 
+      {/* <!-- Jungle Modal --> */}
+      <div className="modal fade" id="projectJungleDetails" tabindex="-1" aria-labelledby="projectJungleDetailsLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h2 className="modal-title" id="projectJungleDetailsLabel">Project Details</h2>
+              <button type="button" className="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <p className='modal-body__desc'>A web app that allows users to buy plants online and checkout using Stripe. Admin can view dashboard and add/remove products.</p>
+              <div className='modal-body__tech-stack'>
+                <p>Tech Stack: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/rails.png"
+                      alt="Ruby on rails Logo"
+                      width={50}
+                      height={30} />
+                    <span className='language-desc'>Ruby On Rails</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/postgres.png"
+                      alt="Postgres Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>Postgres</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/bootstrap.svg"
+                      alt="Bootstrap Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>Bootstrap</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/stripe.png"
+                      alt="Stripe Logo"
+                      width={50}
+                      height={30} />
+                    <span className='language-desc'>Stripe</span>
+                  </div>
+                </div>
+              </div>
+              <div className='modal-body__api-lib'>
+                <p>Testing: </p>
+                <div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/rspec.png"
+                      alt="Rspec Logo"
+                      width={30}
+                      height={30} />
+                    <span className='language-desc'>Rspec</span>
+                  </div>
+                  <div className='skill-section__languages-group'>
+                    <Image
+                      src="/colored-logo/cypress.svg"
+                      alt="cypress Logo"
+                      width={80}
+                      height={30} />
+                    <span className='language-desc'>Cypress</span>
+                  </div>
+                </div>
+              </div>
+              <div className='modal-body__source-code'>
+                <Link href="https://github.com/MoMoZin/jungle-rails" legacyBehavior>
+                  <a target="_blank" className='modal-body__source-code___git'>
+                    <i className="fa-brands fa-github fa-lg"></i>
+                    <span>View Source code and Screenshots</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* <!-- Scheduler Modal --> */}
       <div className="modal fade" id="project3Details" tabindex="-1" aria-labelledby="project3DetailsLabel" aria-hidden="true">
