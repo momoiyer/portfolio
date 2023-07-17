@@ -168,11 +168,11 @@ const Skill = () => {
             {/* Individual Item */}
             <div className='skill-section__languages-group'>
               <Image
-                src="/skill-logo/mysql.svg"
-                alt="MySQL Log"
-                width={30}
+                src="/skill-logo/mssql.png"
+                alt="Microsoft SQL Log"
+                width={40}
                 height={30} />
-              <span className='language-desc'>MySQL</span>
+              <span className='language-desc'>Microsoft SQL</span>
             </div>
             <div className='skill-section__languages-group'>
               <Image
@@ -200,27 +200,11 @@ const Skill = () => {
             </div>
             <div className='skill-section__languages-group'>
               <Image
-                src="/skill-logo/graphql.svg"
-                alt="GraphQL Logo"
-                width={30}
-                height={30} />
-              <span className='language-desc'>GraphQL</span>
-            </div>
-            <div className='skill-section__languages-group'>
-              <Image
                 src="/skill-logo/sybase.png"
                 alt="SQL Anywhere Logo"
                 width={45}
                 height={30} />
               <span className='language-desc'>SQL Anywhere</span>
-            </div>
-            <div className='skill-section__languages-group'>
-              <Image
-                src="/skill-logo/firebase.svg"
-                alt="Firebase Logo"
-                width={30}
-                height={30} />
-              <span className='language-desc'>Firebase</span>
             </div>
           </div>
         </div>
