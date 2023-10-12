@@ -20,13 +20,13 @@ const Intro = () => {
           className="d-block w-100 h-100" />
 
         <div className='intro-section__social'>
-          <Link href="https://www.linkedin.com/in/khinmomozin/" legacyBehavior>
+          <Link href="https://www.linkedin.com/in/momoiyer/" legacyBehavior>
             <a target="_blank" className='intro-section__social_item'>
               <i className="fa-brands fa-linkedin fa-xl"></i>
             </a>
           </Link>
 
-          <Link href="https://github.com/MoMoZin" legacyBehavior>
+          <Link href="https://github.com/momoiyer" legacyBehavior>
             <a target="_blank" className='intro-section__social_item'>
               <i className="fa-brands fa-github fa-xl"></i>
             </a>

@@ -61,7 +61,7 @@ const About = () => {
                 height={55} />
             </div>
             <div className='about-section__item-desc'>
-              <p>Started missing coding and went back to school to get a Graduate Diploma in Systems Analysis. Got my first developer job (Full Stack) that brought me so much exciement every single day for almost 3 years!</p>
+              <p>Received a Graduate Diploma in Systems Analysis at NUS. Got a developer job (Full Stack) that brought me so much exciement every single day for almost 3 years!</p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const About = () => {
                 height={55} />
             </div>
             <div className='about-section__item-desc'>
-              <p>After 2 years, realized my true passion will always be programming and joined a coding bootcamp to modernize my tech stack. Currently volunteering at a Calgary startup as a full-stack developer and lead of the front-end team.</p>
+              <p>Realizing my true passion will always be programming. So I joined a coding bootcamp to modernize the tech stack. Recently volunteered at a Calgary startup as a full-stack developer.</p>
             </div>
           </div>
         </div>
