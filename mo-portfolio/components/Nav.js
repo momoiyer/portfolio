@@ -49,7 +49,7 @@ const Nav = () => {
           <li><a
             className='nav-bar__item'
             onClick={() => { setNavActive(false); }}
-            target="_blank" href='https://flowcv.com/resume/gfw7e2wn1w'>resume</a></li>
+            target="_blank" href='https://flowcv.com/resume/icuuq63mw4'>resume</a></li>
         </ul>
       </div>
     </nav>
